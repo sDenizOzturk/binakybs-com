@@ -1,0 +1,35 @@
+[ 
+    {
+        "backgroundImageUrl": "assets/contactUs/background.jpg",
+        "linkImages": [
+            {
+                "imageUrl": "assets/contactUs/logo_whatsapp.png",
+                "targetUrl": "https://wa.me/905555515579"
+            },
+            {
+                "imageUrl": "assets/contactUs/logo_email.png",
+                "targetUrl": "mailto:iletisim@binakybs.com?cc=serhatdenizozturk@hotmail.com"
+            },
+            {
+                "imageUrl": "assets/contactUs/logo_facebook.png",
+                "targetUrl": "https://www.facebook.com/people/BINAK/100077774347859/"
+            },
+            {
+                "imageUrl": "assets/contactUs/logo_linkedIn.png",
+                "targetUrl": "https://www.linkedin.com/company/binakybs/"
+            }
+        ],
+        "IBANs": [
+            {
+                "number": "TR68 0004 6014 3388 8000 0240 72",
+                "bankName": "Akbank",
+                "nameSurname": "Serhat Deniz Öztürk"
+            },
+            {
+                "number": "TR68 0004 6014 3388 8000 0240 72",
+                "bankName": "Akbank",
+                "nameSurname": "Serhat Deniz Öztürk"
+            }
+        ]
+    }
+]
