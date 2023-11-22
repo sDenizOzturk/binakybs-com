@@ -5,35 +5,34 @@
     <h2 v-show="object.h2" v-html="object.h2"></h2>
     <h3 v-show="object.h3" v-html="object.h3"></h3>
     <p v-for="item in object.p" :key="item" v-html="item"></p>
-    <ButtonB v-for="item in object.buttons" :key="item"
-      v-show="true" class="button" :object="item" />
+    <ButtonB
+      v-for="item in object.buttons"
+      :key="item"
+      v-show="true"
+      class="button"
+      :object="item"
+    />
     <div class="linkImageDiv">
-      <a v-for="item in object.linkImages" :key="item"
-        :href="item.targetUrl" target="_blank">
-        <img class="linkImage" :src="require('@/'+item.imageUrl)" alt="" >
+      <a v-for="item in object.linkImages" :key="item" :href="item.targetUrl" target="_blank">
+        <img class="linkImage" :src="require('@/' + item.imageUrl)" alt="" />
       </a>
     </div>
   </div>
 </template>
 
 <script>
-import ButtonB from '../widgets/ButtonB.vue';
+import ButtonB from "@/components/ui/ButtonB.vue";
 
 export default {
-  name: 'SubElementC',
-  created() {
-
-  },
+  name: "SubElementC",
+  created() {},
   data() {
-    return {
-    };
+    return {};
   },
   props: {
     object: Object,
   },
-  methods: {
-
-  },
+  methods: {},
   components: {
     ButtonB,
   },
@@ -41,14 +40,17 @@ export default {
 </script>
 
 <style scoped>
-.text-wrapper{
+.text-wrapper {
   display: grid;
   flex-direction: column;
   text-align: left;
   position: relative;
   margin: 2vmin;
 }
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: var(--color2);
   margin: 0;
 }
@@ -65,7 +67,7 @@ h3 {
   margin-top: 2vmin;
   font-weight: 300;
 }
-p{
+p {
   font-size: 2vmin;
   margin-top: 1.5vmin;
   font-weight: 300;
@@ -74,7 +76,7 @@ p{
 .button {
   font-size: 3vmin;
   padding: 2vmin;
-  background: var(--color1);
+  background: var(--color0);
   border: 1px solid var(--color2);
   margin-top: 1.5vmin;
 }
@@ -84,13 +86,13 @@ p{
   justify-content: left;
 }
 .linkImage {
-  height: 10vmin;
+  height: 6vmin;
   margin: 2vmin;
   margin-left: 0;
 }
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
   h1 {
-  font-size: 7vmin;
+    font-size: 7vmin;
   }
   h2 {
     font-size: 4.5vmin;
@@ -98,7 +100,7 @@ p{
   h3 {
     font-size: 3.5vmin;
   }
-  p{
+  p {
     font-size: 3vmin;
   }
   .button {

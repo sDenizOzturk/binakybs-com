@@ -1,9 +1,9 @@
 <template>
   <div class="page">
     <div class="div_left">
-      <img :src="require('@/'+ object.imageUrl )" alt="">
+      <img :src="require('@/' + object.imageUrl)" alt="" />
     </div>
-    <div class="div_right" >
+    <div class="div_right">
       <h1 v-show="object.h1" v-html="object.h1"></h1>
       <h2 v-show="object.h2" v-html="object.h2"></h2>
       <h3 v-show="object.h3" v-html="object.h3"></h3>
@@ -14,13 +14,11 @@
 </template>
 
 <script>
-import ButtonB from '../widgets/ButtonB.vue';
+import ButtonB from "@/components/ui/ButtonB.vue";
 
 export default {
-  name: 'ElementB',
-  created() {
-
-  },
+  name: "ElementB",
+  created() {},
   data() {
     return {
       rightWidth: this.object.rightWidth,
@@ -30,9 +28,7 @@ export default {
   props: {
     object: Object,
   },
-  methods: {
-
-  },
+  methods: {},
   components: {
     ButtonB,
   },
@@ -64,10 +60,13 @@ export default {
   justify-content: center;
   text-align: left;
   position: relative;
-  width: v-bind(rightWidth+"%");
+  width: v-bind(rightWidth + "%");
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: var(--color2);
   margin: 0;
   margin-left: 2vmin;
@@ -85,23 +84,24 @@ h3 {
   margin-top: 3vmin;
   font-weight: 300;
 }
-p{
+p {
   font-size: 3vmin;
   margin-top: 1.5vmin;
   font-weight: 300;
   text-align: justify;
 }
 img {
-  width: v-bind(leftWidth+"%");
+  width: v-bind(leftWidth + "%");
   object-fit: scale-down;
 }
 .button {
   margin: 2vmin;
   font-size: 3.5vmin;
 }
-@media screen and (orientation:portrait) {
-  .div_right, img {
-    width : 100%;
+@media screen and (orientation: portrait) {
+  .div_right,
+  img {
+    width: 100%;
   }
   .div_left {
     margin: 0;

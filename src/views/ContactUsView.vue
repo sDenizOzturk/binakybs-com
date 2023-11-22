@@ -1,17 +1,22 @@
 <!-- eslint-disable vuejs-accessibility/anchor-has-content -->
 <template>
   <div class="page">
-    <div v-for="object in json" :key="object" class="background"
-      :style="{'background-image': 'url(' + require('@/'+object.backgroundImageUrl) + ')'}">
+    <div
+      v-for="object in json"
+      :key="object"
+      class="background"
+      :style="{ 'background-image': 'url(' + require('@/' + object.backgroundImageUrl) + ')' }"
+    >
       <div class="wrapper">
         <div v-for="item in object.IBANs" :key="item">
-          <p> {{ item.number }} <br>
-            {{ item.bankName }} - {{ item.nameSurname }}</p>
+          <p>
+            {{ item.number }} <br />
+            {{ item.bankName }} - {{ item.nameSurname }}
+          </p>
         </div>
-        <div >
-          <a v-for="item in object.linkImages" :key="item"
-            :href="item.targetUrl" target="_blank">
-            <img class="linkImage" :src="require('@/'+item.imageUrl)" alt="" >
+        <div>
+          <a v-for="item in object.linkImages" :key="item" :href="item.targetUrl" target="_blank">
+            <img class="linkImage" :src="require('@/' + item.imageUrl)" alt="" />
           </a>
         </div>
       </div>
@@ -20,23 +25,18 @@
 </template>
 
 <script>
-import _json from '@/jsons/contactUs.json';
+import _json from "@/jsons/contactUs.json";
 
 export default {
-  name: 'ContactUsView',
-  created() {
-
-  },
+  name: "ContactUsView",
+  created() {},
   data() {
     return {
       json: _json,
     };
   },
-  props: {
-  },
-  methods: {
-
-  },
+  props: {},
+  methods: {},
 };
 </script>
 
@@ -44,6 +44,7 @@ export default {
 .page {
   height: 70vh;
   margin: 0;
+  min-height: 79vh;
 }
 .background {
   height: 100%;
@@ -63,6 +64,7 @@ export default {
   margin-top: auto;
   height: 100%;
 }
+
 .linkImage {
   height: 10vmin;
   margin: 2vmin;

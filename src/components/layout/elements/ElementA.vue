@@ -1,36 +1,33 @@
 <template>
-  <div class="page" >
-    <div class="background"
-      :style="{'background-image': 'url(' + require('@/'+object.imageUrl) + ')'}">
+  <div class="page">
+    <div
+      class="background"
+      :style="{ 'background-image': 'url(' + require('@/' + object.imageUrl) + ')' }"
+    >
       <div class="text-wrapper">
         <h1 v-html="object.h1"></h1>
         <h2 v-html="object.h2"></h2>
         <h3 v-html="object.h3"></h3>
-        <ButtonA style="margin: 2vmin;" :object="object.button" />
+        <ButtonA style="margin: 2vmin" :object="object.button" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ButtonA from '../widgets/ButtonA.vue';
+import ButtonA from "@/components/ui/ButtonA.vue";
 
 export default {
   components: { ButtonA },
-  name: 'ElementA',
-  created() {
-
-  },
+  name: "ElementA",
+  created() {},
   data() {
-    return {
-    };
+    return {};
   },
   props: {
     object: Object,
   },
-  methods: {
-
-  },
+  methods: {},
 };
 </script>
 
@@ -45,7 +42,7 @@ export default {
   height: 90vh;
   margin: 0;
 }
-.text-wrapper{
+.text-wrapper {
   display: grid;
   flex-direction: column;
   justify-content: right;
@@ -53,7 +50,9 @@ export default {
   position: relative;
   top: 20vh;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color1);
   margin: 0;
   margin-right: 2vmin;
@@ -72,10 +71,10 @@ h3 {
   font-weight: 300;
 }
 @media screen and (orientation: portrait) {
-  .page{
+  .page {
     height: 60vmin;
   }
-  .text-wrapper{
+  .text-wrapper {
     top: 0;
   }
 }

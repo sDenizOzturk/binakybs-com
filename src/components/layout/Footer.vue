@@ -3,46 +3,37 @@
   <div class="footer">
     <div class="leftItem">
       <div v-for="object in jsonContactUs" :key="object">
-        <div >
-          <a v-for="item in object.linkImages" :key="item"
-            :href="item.targetUrl" target="_blank">
-            <img class="linkImage" :src="require('@/'+item.imageUrl)" alt="" >
+        <div>
+          <a v-for="item in object.linkImages" :key="item" :href="item.targetUrl" target="_blank">
+            <img class="linkImage" :src="require('@/' + item.imageUrl)" alt="" />
           </a>
+        </div>
       </div>
     </div>
-    </div>
-    <div class="centerItem">
-      reserved (Center Item)
-    </div>
-    <div class="rightItem">
-      BINAK 2023
-    </div>
+    <div class="centerItem"></div>
+    <div class="rightItem">BINAK 2023 ©</div>
   </div>
 </template>
 
 <script>
-import _jsonContactUs from '@/jsons/contactUs.json';
+import _jsonContactUs from "@/jsons/contactUs.json";
 
 export default {
-  name: 'FooterComponent',
-  created() {
-
-  },
+  name: "FooterComponent",
+  created() {},
   data() {
     return {
       jsonContactUs: _jsonContactUs,
     };
   },
-  props: {
-  },
-  methods: {
-  },
+  props: {},
+  methods: {},
 };
 </script>
 
 <style scoped>
 .footer {
-  background: var(--color2);
+  background: var(--color2_9);
   color: var(--color1);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -56,7 +47,7 @@ export default {
   margin: 2vmin;
 }
 .centerItem {
-  text-align: center ;
+  text-align: center;
 }
 .rightItem {
   text-align: right;
@@ -66,7 +57,7 @@ export default {
   height: 5vmin;
   margin: 1vmin;
 }
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
   .footer {
     grid-template-columns: repeat(2, 1fr);
   }
