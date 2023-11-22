@@ -1,82 +1,82 @@
 [
-    {
-        "id": "ElementA-1",
-        "imageUrl": "assets/homePage/bKapi-arkaplan.jpg",
-        "h1": "bKapı -site",
-        "h2": "Araç/Yaya Geçiş Sistemi",
-        "h3": "Plaka Tanıma ile<br/>Mobil Uygulama Bir Arada",
-        "button": {
-            "text": "Detaylar",
-            "target": "/cihazlar-sistemler/bKapi-site"
-        }
-    },
-    {
-        "id": "ElementB-1",
-        "imageUrl": "assets/homePage/bOkul.png",
-        "h1": "bOkul",
-        "h2": "Anons ve Kapı Açma Sistemi",
-        "h3": "",
-        "p": [
-            "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar.",
-            "Öğretmenin telefonuna mesaj gönderilirek anons yapılır, böylece diğer sınıfların dersleri bölünmez.",
-            "Mesaj ile birlikte anons sırasındaki kamera görüntüsü, velinin ve öğrencinin resimleri gönderilir."
-            ],
-        "button": {
-            "text": "Detaylar",
-            "target": "/cihazlar-sistemler/bOkul"
-        },
-        "leftWidth": "50",
-        "rightWidth": "50"
-    },    
-    {
-        "id": "ElementA-2",
-        "imageUrl": "assets/homePage/bDiafon-arkaplan.jpg",
-        "h1": "bDiafon",
-        "h2": "GSM Tabanlı Diafon Cihazı",
-        "h3": "15 Dakika Kurulumu Yapılabilen<br/>10-20 Kat Daha Az Maliyetli<br/>Benzersiz Bir Diafon",
-        "button": {
-            "text": "Detaylar",
-            "target": "/cihazlar-sistemler/bDiafon"
-        }
-    },    
-    {
-        "id": "ElementC-1",
-        "imageWidth": "75%",
-        "leftObject": {
-            "imageUrl": "assets/homePage/bKapi-GSM.png",
-            "h1": "bKapi -GSM",
-            "h2": "GSM Tabanlı Kapı Açma Cihazı",
-            "h3": "Web Arayüzü ile Kullanım<br/>1000 Adet Numara Kapasitesi<br/>Son 250 Geçiş Kaydı",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bKapi-GSM"
-                }
-            ]
-        },
-        "centerObject": {
-            "imageUrl": "assets/homePage/bAdim.png",
-            "h1": "bAdım",
-            "h2": "Akıllı Basamak Aydınlatma Cihazı",
-            "h3": "Web Arayüzü ile Kullanım<br/>Gerçek Adım Takibi Özelliği<br/>Mesafe Sensörü ile Kullanım",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bAdim"
-                }
-            ]
-        },
-        "rightObject": {
-            "imageUrl": "assets/homePage/bPersonel.png",
-            "h1": "bPersonel",
-            "h2": "Gelişmiş Personel Takip Sistemi",
-            "h3": "Yüz Tanıma ve RFID Kart ile Kullanım<br/>Yenilikçi MMS/EMMS Sistemi<br/>Açık ve Kapalı Sistem Seçenekleri",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bPersonel"
-                }             
-            ]
-        }
+  {
+    "id": "ElementA-1",
+    "imageUrl": "assets/homePage/bKapi-bg.webp",
+    "h1": "bKapı -site",
+    "h2": "Araç/Yaya Geçiş Sistemi",
+    "h3": "Plaka Tanıma ile<br/>Mobil Uygulama Bir Arada",
+    "button": {
+      "text": "Detaylar",
+      "target": "/cihazlar-sistemler/bKapi-site"
     }
+  },
+  {
+    "id": "ElementB-1",
+    "imageUrl": "assets/homePage/bOkul.webp",
+    "h1": "bOkul",
+    "h2": "Anons ve Kapı Açma Sistemi",
+    "h3": "",
+    "p": [
+      "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar.",
+      "Öğretmenin telefonuna mesaj gönderilirek anons yapılır, böylece diğer sınıfların dersleri bölünmez.",
+      "Mesaj ile birlikte anons sırasındaki kamera görüntüsü, velinin ve öğrencinin resimleri gönderilir."
+    ],
+    "button": {
+      "text": "Detaylar",
+      "target": "/cihazlar-sistemler/bOkul"
+    },
+    "leftWidth": "50",
+    "rightWidth": "50"
+  },
+  {
+    "id": "ElementA-2",
+    "imageUrl": "assets/homePage/bDiafon-bg.webp",
+    "h1": "bDiafon",
+    "h2": "GSM Tabanlı Diafon Cihazı",
+    "h3": "15 Dakika Kurulumu Yapılabilen<br/>10-20 Kat Daha Az Maliyetli<br/>Benzersiz Bir Diafon",
+    "button": {
+      "text": "Detaylar",
+      "target": "/cihazlar-sistemler/bDiafon"
+    }
+  },
+  {
+    "id": "ElementC-1",
+    "imageWidth": "75%",
+    "leftObject": {
+      "imageUrl": "assets/homePage/bKapi-GSM.webp",
+      "h1": "bKapi -GSM",
+      "h2": "GSM Tabanlı Kapı Açma Cihazı",
+      "h3": "Web Arayüzü ile Kullanım<br/>1000 Adet Numara Kapasitesi<br/>Son 250 Geçiş Kaydı",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bKapi-GSM"
+        }
+      ]
+    },
+    "centerObject": {
+      "imageUrl": "assets/homePage/bAdim.webp",
+      "h1": "bAdım",
+      "h2": "Akıllı Basamak Aydınlatma Cihazı",
+      "h3": "Web Arayüzü ile Kullanım<br/>Gerçek Adım Takibi Özelliği<br/>Mesafe Sensörü ile Kullanım",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bAdim"
+        }
+      ]
+    },
+    "rightObject": {
+      "imageUrl": "assets/homePage/bPersonel.webp",
+      "h1": "bPersonel",
+      "h2": "Gelişmiş Personel Takip Sistemi",
+      "h3": "Yüz Tanıma ve RFID Kart ile Kullanım<br/>Yenilikçi MMS/EMMS Sistemi<br/>Açık ve Kapalı Sistem Seçenekleri",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bPersonel"
+        }
+      ]
+    }
+  }
 ]

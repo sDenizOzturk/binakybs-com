@@ -1,41 +1,41 @@
-[ 
-    {
-        "imageWidth": "90%",
-        "leftObject": {
-            "imageUrl": "assets/desktopApps/bKarşıt/1.png",
-            "h1": "bKarşıt",
-            "h2": "Karşıt İnceleme Tutanağı<br>Hazırlama Uygulaması",
-            "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bPersonel"
-                }             
-            ]
-        },
-        "centerObject": {
-            "imageUrl": "assets/desktopApps/bKDV/4.png",
-            "h1": "bKDV",
-            "h2": "İndirilecek ve Yüklenilen KDV Listesi<br>Hazırlama Uygulaması",
-            "h3": "YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bPersonel"
-                }             
-            ]
-        },
-        "rightObject": {
-            "imageUrl": "assets/desktopApps/bGümrük/3.png",
-            "h1": "bGümrük",
-            "h2": "Gümrük Çıkış Beyannamesi ve Satış Faturaları<br>Listeleri Hazırlama Uygulaması",
-            "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
-            "buttons": [
-                {
-                    "text": "Detaylar",
-                    "target": "/mobil-uygulamalar/bPersonel"
-                }             
-            ]
+[
+  {
+    "imageWidth": "90%",
+    "leftObject": {
+      "imageUrl": "assets/desktopApps/bKarşıt/1.webp",
+      "h1": "bKarşıt",
+      "h2": "Karşıt İnceleme Tutanağı<br>Hazırlama Uygulaması",
+      "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bPersonel"
         }
+      ]
+    },
+    "centerObject": {
+      "imageUrl": "assets/desktopApps/bKDV/4.webp",
+      "h1": "bKDV",
+      "h2": "İndirilecek ve Yüklenilen KDV Listesi<br>Hazırlama Uygulaması",
+      "h3": "YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bPersonel"
+        }
+      ]
+    },
+    "rightObject": {
+      "imageUrl": "assets/desktopApps/bGümrük/3.webp",
+      "h1": "bGümrük",
+      "h2": "Gümrük Çıkış Beyannamesi ve Satış Faturaları<br>Listeleri Hazırlama Uygulaması",
+      "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
+      "buttons": [
+        {
+          "text": "Detaylar",
+          "target": "/mobil-uygulamalar/bPersonel"
+        }
+      ]
     }
+  }
 ]
