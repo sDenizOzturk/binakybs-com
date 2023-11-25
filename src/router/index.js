@@ -1,8 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import DevicesView from "@/views/DevicesView.vue";
-import MobileAppsView from "@/views/MobileAppsView.vue";
-import DesktopAppsView from "@/views/DesktopAppsView.vue";
-import ContactUsView from "@/views/ContactUsView.vue";
 
 const routes = [
   {
@@ -13,22 +9,27 @@ const routes = [
   {
     path: "/cihazlar-sistemler",
     name: "cihazlar-sistemler",
-    component: DevicesView,
+    component: () => import("@/views/DevicesView.vue"),
   },
   {
     path: "/mobil-uygulamalar",
     name: "mobil-uygulamalar",
-    component: MobileAppsView,
+    component: () => import("@/views/MobileAppsView.vue"),
   },
   {
     path: "/masaustu-uygulamalar",
     name: "masaustu-uygulamalar",
-    component: DesktopAppsView,
+    component: () => import("@/views/DesktopAppsView.vue"),
   },
   {
     path: "/iletisim",
     name: "iletisim",
-    component: ContactUsView,
+    component: () => import("@/views/ContactUsView.vue"),
+  },
+  {
+    path: "/urunler/:productName",
+    name: "urun",
+    component: () => import("@/views/ProductsView.vue"),
   },
 ];
 

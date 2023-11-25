@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bOkul/0.webp",
+    "h1": "bOkul",
+    "h2": "Veli Anons Sistemi",
+    "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bOkul/1.webp",
+        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bOkul/2.webp",
+        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
+      },
+      {
+        "imageOnLeft": true,
+        "background": false,
+        "imageUrl": "assets/products/bOkul/3.webp",
+        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
+      }
+    ]
+  }
+]

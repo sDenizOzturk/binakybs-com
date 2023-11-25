@@ -10,11 +10,13 @@
         </div>
       </div>
     </div>
-    <div class="centerItem"></div>
-    <div class="rightItem">BINAK 2023 ©</div>
+    <div class="centerItem"><p>© 2023 BINAK</p></div>
+    <div class="rightItem">
+      <img class="logo" :src="require('@/assets/logo.webp')" alt="" />
+    </div>
   </div>
 </template>
-
+a
 <script>
 import _jsonContactUs from "@/jsons/contactUs.json";
 
@@ -33,7 +35,6 @@ export default {
 
 <style scoped>
 .footer {
-  background: var(--color2_9);
   color: var(--color1);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -41,6 +42,7 @@ export default {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   align-items: center;
+  background: var(--color2_9);
 }
 .leftItem {
   text-align: left;
@@ -51,12 +53,31 @@ export default {
 }
 .rightItem {
   text-align: right;
-  margin: 2vmin;
+  margin-right: 2vmin;
+  display: flex;
+  justify-content: right;
 }
 .linkImage {
-  height: 5vmin;
+  height: 4vmin;
   margin: 1vmin;
+  filter: drop-shadow(var(--color3_3) 0.1vh 0.5vh 0.5vh);
 }
+
+p {
+  color: var(--color3);
+  font-size: 2.25vmin;
+  margin: auto 0;
+  filter: drop-shadow(var(--color3_4) 0.1vh 1vh 1vh);
+}
+
+.logo {
+  height: 7vmin;
+  margin: 0;
+  margin-left: 1.5vmin;
+  margin-right: 1vmin;
+  filter: drop-shadow(var(--color3_4) 0.1vh 1vh 1vh);
+}
+
 @media screen and (orientation: portrait) {
   .footer {
     grid-template-columns: repeat(2, 1fr);

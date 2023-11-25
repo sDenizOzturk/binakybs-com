@@ -1,6 +1,12 @@
 <template>
   <div class="menu">
-    <ButtonB v-for="item in buttons" :key="item" :object="item" :style="getStyle(item.target)" />
+    <ButtonB
+      v-for="item in buttons"
+      :key="item"
+      :object="item"
+      :style="getStyle(item.target)"
+      class="menuButton"
+    />
   </div>
 </template>
 
@@ -26,7 +32,7 @@ export default {
   props: {},
   methods: {
     getStyle(path) {
-      return this.$route.path === path ? "background: var(--color3);" : "";
+      return this.$route.path === path ? "background: var(--color3); " : "";
     },
   },
 };
@@ -40,6 +46,9 @@ export default {
   gap: 10px;
   background: var(--color3_1);
 }
+.menuButton {
+  font-size: 2.25vh;
+}
 @media screen and (orientation: portrait) {
   .menu {
     display: grid;
@@ -47,6 +56,9 @@ export default {
     grid-template-rows: 1fr;
     margin: 1vmin;
     gap: 0;
+  }
+  .menuButton {
+    font-size: 1.75vh;
   }
 }
 </style>

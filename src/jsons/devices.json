@@ -1,20 +1,20 @@
 [
   {
-    "id": "ElementA-1",
-    "imageUrl": "assets/homePage/bKapi-bg.webp",
+    "id": "HomeLayoutA-1",
+    "imageUrl": "assets/homePage/bKapi-site-bg.webp",
     "h1": "bKapı -site",
     "h2": "Araç/Yaya Geçiş Sistemi",
     "h3": "Plaka Tanıma ile<br/>Mobil Uygulama Bir Arada",
     "button": {
       "text": "Detaylar",
-      "target": "/cihazlar-sistemler/bKapi-site"
+      "target": "/urunler/bkapi-site"
     }
   },
   {
-    "id": "ElementB-1",
+    "id": "HomeLayoutB-1",
     "imageUrl": "assets/homePage/bOkul.webp",
     "h1": "bOkul",
-    "h2": "Anons ve Kapı Açma Sistemi",
+    "h2": "Veli Anons Sistemi",
     "h3": "",
     "p": [
       "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar.",
@@ -23,24 +23,24 @@
     ],
     "button": {
       "text": "Detaylar",
-      "target": "/cihazlar-sistemler/bOkul"
+      "target": "/urunler/bokul"
     },
     "leftWidth": "50",
     "rightWidth": "50"
   },
   {
-    "id": "ElementA-2",
+    "id": "HomeLayoutA-2",
     "imageUrl": "assets/homePage/bDiafon-bg.webp",
     "h1": "bDiafon",
     "h2": "GSM Tabanlı Diafon Cihazı",
     "h3": "15 Dakika Kurulumu Yapılabilen<br/>10-20 Kat Daha Az Maliyetli<br/>Benzersiz Bir Diafon",
     "button": {
       "text": "Detaylar",
-      "target": "/cihazlar-sistemler/bDiafon"
+      "target": "/urunler/bdiafon"
     }
   },
   {
-    "id": "ElementC-1",
+    "id": "HomeLayoutC-1",
     "imageWidth": "75%",
     "leftObject": {
       "imageUrl": "assets/homePage/bKapi-GSM.webp",
@@ -50,7 +50,7 @@
       "buttons": [
         {
           "text": "Detaylar",
-          "target": "/mobil-uygulamalar/bKapi-GSM"
+          "target": "/urunler/bkapi-gsm"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "buttons": [
         {
           "text": "Detaylar",
-          "target": "/mobil-uygulamalar/bAdim"
+          "target": "/urunler/badim"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "buttons": [
         {
           "text": "Detaylar",
-          "target": "/mobil-uygulamalar/bPersonel"
+          "target": "/urunler/bpersonel"
         }
       ]
     }

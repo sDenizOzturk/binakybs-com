@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bKapi-GSM/0.webp",
+    "h1": "bKapı -GSM",
+    "h2": "GSM Tabanlı Kapı/Bariyer Açma Cihazı",
+    "p": [
+      "bKapı -GSM, siteler ve iş yerleri için geliştirdiğimiz, GSM tabanlı bir kapı/bariyer açma cihazıdır. Cihaza takılı sim karta ait numara arandığında, arayan numara kayıtlı ise kapı açılır ve arama cihaz tarafından meşgule atılır. Numara ekleme işlemi, SMS göndererek yapılan diğer cihazların aksine WIFI üzerinden telefon, bilgisayar veya tablet ile cihaza bağlanılarak yapılır. Böylece, SMS gönderme maliyeti bulunmaz, cihaza takılı hat gelen aramalara açık olduğu sürece sorunsuzca kullanılabilir.",
+      "Cihaza 1000 adet numara “adı soyadı-kapı numarası-telefon numarası” bilgileriyle beraber eklenebilir, arayüz üzerinde tüm bu bilgilere ulaşılabilir. Yüklenen 1000 numara dışa aktarma özelliği ile yedeklenebilir ve daha sonra içe aktarma özelliği ile cihaza yüklenebilir. Son 250 kayıt “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutulur. Saat, internet bağlantısı üzerinden (NTP) alınır, internet bağlantısı olmayan durumlarda tarih/saat yerine cihazın son açılışından itibaren geçen süre gösterilir. Cihaz üzerindeki rölenin tetiklenme süresi ayarlanabilir, varsayılan değer 1000 milisaniyedir.",
+      "Cihaz arayüzüne internet tarayıcıları ile bağlanılır, böylece herhangi bir uygulama kurulması gerekmez. Cihaz, AP modunda çalışabildiği için cihaza WIFI ile doğrudan bağlanabilir. Sabit IP’ye sahip internet bağlantısı bulunan bir ağa bağlanılması halinde, cihaz arayüzüne internet bağlantısı olan herhangi bir yerden ulaşılabilir."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKapi-GSM/1.webp",
+        "li": [
+          "GSM üzerinden arama ile kapı/bariyer açma",
+          "SMS gönderme maliyeti olmadan sim kart ile çalışma",
+          "Cep telefonu, tablet veya bilgisayar ile WIFI üzerinden cihaz arayüzüne erişim",
+          "“Adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle 1000 numara ekleme/düzenleme/listeleme/silme"
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bKapi-GSM/2.webp",
+        "li": [
+          "Son 250 arama kaydını “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutma",
+          "Ayarlanabilir tetikleme süresi",
+          "NTP ile otomatik tarih/saat",
+          "AP modunda çalışabilme"
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKapi-GSM/3.webp",
+        "li": [
+          "Çift çekirdek 32 bit 240 MHz işlemci",
+          "320 KB RAM",
+          "2.4 Ghz 802.11 b/g/n WIFI",
+          "850/900/1800/1900MHz 2G GSM",
+          "5V 2A DC güç kullanımı",
+          "88x60x42 mm boyut",
+          "130 gram ağırlık"
+        ]
+      }
+    ]
+  }
+]

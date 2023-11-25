@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bGumruk/0.webp",
+    "h1": "bGümrük",
+    "h2": "Gümrük Çıkış Beyannamesi ve Satış Faturaları Listeleri Hazırlama Uygulaması",
+    "p": [
+      "bGümrük, KDV iadesi talep eden ihracatçı firmalar, YMM’ler ve SMMM’ler için geliştirdiğimiz, aynı anda Gümrük Çıkış Beyanname ve Yurt Dışı Satış Faturaları Listelerinin hızlı ve güvenilir şekilde hazırlamasını sağlayan bir uygulamadır. GİB sisteminden alınan Gümrük Çıkış Beyannameleri bilgileri üzerinde çalışılmaktadır, bu nedenle hata olasılığı girilen döviz cinsi ve döviz tutarı ile sınırlı kalmaktadır. Geliştirdiğimiz algoritmalar ve arayüz sayesinde, bGümrük, yardımcı personel tarafından da rahatlıkla kullanılabilecek basitliktedir, zamandan ve iş gücünden büyük oranda tasarruf edilmesini sağlar.",
+      "<b>a-) Gümrük Çıkış Beyannamesi (GÇB)</b>",
+      "Gümrük çıkış beyannameleri listesinin doğru ve hızlı biçimde oluşturulması sağlanmaktadır. GİB sisteminden alınan Gümrük beyannameleri ve intaç tarihlerine sadece döviz cinsi ve tutarı eklemek suretiyle liste oluşturulabilmektedir. Aynı dönem içerisinde fazla gümrük çıkış beyannamesi olan ve KDV iadesi talep eden firmalar için büyük kolaylık sağlamaktadır.",
+      "<b>b-) Yurt Dışı Satış Faturaları Listesi</b>",
+      "Gümrük çıkış beyannameleri ve satış faturaları bir arada listelenmekte, ayrıca ihraç ürünü mallar ve ambalaj malzemeleri listelenebilmektedir. GİB formatının yanında yüklenilen KDV listesi ve iade raporunda da kullanılacak miktar/tutar gibi bilgileri sunmaktadır. Döviz kurunu merkez bankası sisteminden anlık olarak alarak kullanıcıya doğru ve hızlı bir hizmet sağlamaktadır. Tekrar eden bilgiler (GTİP numaraları, alıcı firma ünvanları vb.) veritabanına kaydedildiği için kullanıcıya çok fazla zaman kazandırmaktadır."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bGumruk/1.webp",
+        "li": [
+          "Gümrük Çıkış Beyannamesi ve Satış Faturaları Listelerinin hazırlanma için kullanılır.",
+          "Program ile Excel formatında oluşturulan listeler KDV iade talebi ile ilgili GİB sistemine doğrudan yüklenebilir.",
+          "GÇB (Gümrük Çıkış Beyannamesi) ve SF (Satış Faturaları) Listeleri ana ekran üzerindeki iki tablo ile kontrol edilir. GÇB tablosu üzerinden bir satır seçildiğinde o tescil numarasına ait satış faturaları SF tablosunda listelenir.",
+          "GÇB tablosuna veri girerken girilen intaç tarihinden bir önceki uygun güne ait döviz kuru değerleri TCMB (Türkiye Cumhuriyet Merkez Bankası) sisteminden anlık olarak çekilir. Kur ve tutar (TL) kutucukları otomatik olarak doldurulur."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bGumruk/2.webp",
+        "li": [
+          "Yeni bir çalışma dosyası oluşturulurken ekrana bir metin girme alanı gelir, bu alana Gelir İdaresi Başkanlığı sisteminde (mükellef-gümrük beyannamelri) intaç tarihleri ve gümrük çıkış numaraları verilen “Gümrük Çıkış Beyannameleri” kopyalanarak programın arayüzü (başla-yeni) üzerindeki kutucuğa yapıştırılır. Böylece GÇB tablosuna verilerin tescil numaraları ve intaç tarihleri topluca girilmiş olur. Bu durumda kullanıcıya sadece döviz türünü seçmek, döviz cinsinden toplam fatura tutarını girmek ve “GÇB/ETGB” seçeneklerinden birini seçmek kalır. Bu bilgilerin girilmesiyle bir önceki maddede de belirtildiği gibi kur ve tutar (TL) kutucukları program tarafından otomatik olarak doldurulacaktır."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bGumruk/3.webp",
+        "li": [
+          "Malların GTİP kodları ve ölçü birimleri yazıldıkça öğrenilir, SF tablosuna veri girme işlemi sırasında, malın ismi girilirken kullanıcıya öneriler çıkar, bir öneri seçildiğinde malın GTİP kodu ve birimi otomatik olarak girilir. Aynı şekilde alıcı firmaların isimleri de öğrenilip daha sonra kullanıcı ilgili kutucuğa veri girerken önerilir.",
+          "SF tablosuna veri girerken tutar ve her çalışma dosyasında ayrı ayrı isim verilebilen (palet, tahta kasa vb.) özel kutucuklar bulunur. Bu kutucuklara ve malın miktarı kutucuğuna veri girilirken toplama ve çıkarma işlemleri yapılabilir. İşlem ve sonuç ayrı kutucuklarda saklanır, daha sonra yapılmış işlemlere ulaşılabilir."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bGumruk/4.webp",
+        "li": [
+          "GÇB tablosundaki bulunan fatura tutarları ile SF tablosuna girilen tutarlar otomatik olarak karşılaştırılır. Aynı olması durumunda GÇB tablosundaki ilgili hücre yeşile, farklı olması durumunda ise kırmızıya boyanır. Aynı zamanda üzerinde çalışılan GÇB satırında tutarların eşleşmemesi durumunda başka bir satıra geçmeden önce kullanıcının uyarılması şeklinde çalışan bir kontrol/uyarı sistemi bulunmaktadır.",
+          "GÇB tablosu içinde tescil numarasında göre arama yapılabilir, böylelikle veri girilecek satır onlarca satır arasından kolaylıkla bulunur."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bGumruk/5.webp",
+        "li": [
+          ".xlsx ve .html dosya tiplerinde raporlama yapılabilir. .xlsx dosya tipinde yapıldığı zaman Gelir İdaresi Başkanlığı sistemine yüklenebilecek şekilde oluşturulan dosyalar. Oluşturulan dosyalar ofis programları ile açılabilir. .html dosya tipinde oluşturulan dosyalar ofis programlarının yanı sıra internet tarayıcıları ile de açılabilir. Oluşturulan dosyalar aylara göre klasörlere ayrılır.",
+          "Tercih edilmesi halinde listelerdeki satırlara ek olarak çeşitli verileri içeren ek satırlar eklenebilir.",
+          "Dosyaları oluşturmadan önce program içinde ön izleme yapılabilir."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bGumruk/6.webp",
+        "li": [
+          "Uygulamaya parola kullanılarak giriş yapılır. Veriler veritabanında kriptografi ile şifrelenerek saklanır. Böylece diğer kişilerin çalışmalara ulaşması engellenir.",
+          "Kayıtlar bölümünden, daha önce öğrenilmiş mallar (malın ismi, GTİP kodu, ölçü birimi) ve alıcı firma isimleri üzerinde düzenleme yapılabilir veya elle yeni veri girişi yapılabilir.",
+          "Çalışma dosyaları, mallar ve satıcı firma isimleri ayrı ayrı olarak içe ve dışa aktarılabilir."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bGumruk/7.webp",
+        "li": [
+          "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veri tabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
+          "Web tabanlı değildir. Bu nedenle TCMB sisteminden kur çekme işlemi dışında internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bGumruk/8.webp",
+        "li": [
+          "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
+          "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
+          "Veriler AES 256 ile şifrelenir.",
+          "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
+        ]
+      }
+    ]
+  }
+]

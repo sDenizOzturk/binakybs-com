@@ -5,9 +5,7 @@
 </template>
 
 <script>
-// eslint-disable-next-line
 import Header from "@/components/layout/Header.vue";
-// eslint-disable-next-line
 import Footer from "@/components/layout/Footer.vue";
 
 export default {
@@ -25,17 +23,24 @@ export default {
   --color0: rgba(0, 0, 0, 0);
   --color1: #fbf8f8;
   --color2: rgb(11, 52, 4);
+  --color2_8: rgba(11, 52, 4, 0.8);
   --color2_9: rgba(11, 52, 4, 0.9);
   --color3: rgb(218, 219, 158);
   --color3_1: rgba(218, 219, 158, 0.1);
   --color3_2: rgba(218, 219, 158, 0.2);
+  --color3_3: rgba(218, 219, 158, 0.3);
   --color3_4: rgba(218, 219, 158, 0.4);
 }
 html,
 body {
   font-family: var(--font-family);
   background: var(--color1);
+  color: var(--color2);
   margin: 0;
   padding: 0;
+  font-size: 2.25vh;
+}
+img {
+  filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.1vmin 1vmin 1vmin);
 }
 </style>

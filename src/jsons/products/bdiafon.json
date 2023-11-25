@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bDiafon/0.webp",
+    "h1": "bDiafon",
+    "h2": "GSM Tabanlı Diafon Cihazı",
+    "p": [
+      "bDiafon, GSM tabanlı bir diafon sistemidir. GSM teknolojisi ile çalıştığı için, diğer diafon sistemlerindeki gibi her daireye birer adet cihaz koyulması ve her daireye kablo çekilmesi gibi durumlar söz konusu bile değildir, daire/ev sayısından bağımsız olarak yalnızca iki adet cihazdan oluşur. Cihaz üzerine takılan sim kart kullanılarak, doğrudan cep telefonları aranır ve gelen aramalar işlenir."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bDiafon/1.webp",
+        "li": [
+          "Sisteme 1000 adet numara kaydedilebilir.",
+          "İki yönlü sesli görüşme yapılabilir.",
+          "Arama sırasında numaratör kullanılarak 12 adede kadar kapı/bariyer açılabilir.",
+          "Son 250 arama kaydı cihazlar üzerinde tutulur.",
+          "WIFI özelliği sayesinde numara ekleme, kayıtlara bakma gibi işlemler web arayüzü üzerinden yapılır."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bDiafon/2.webp",
+        "li": [
+          "Tek çekirdek 240MHz işlemci",
+          "320 KB RAM",
+          "2.5 GHz WIFI",
+          "850/900/1800/1900MHz 2G GSM",
+          "2x16 LCD ekran",
+          "2x3W dahili hoparlör",
+          "Dahili mikrofon",
+          "5V2A DC"
+        ]
+      }
+    ]
+  }
+]

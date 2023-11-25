@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "videoUrl": "https://www.youtube.com/embed/WrOA0cO6b0c?si=LohIiWprspMQbJOQ",
+    "h1": "bAdim",
+    "h2": "Akıllı Basamak Aydınlatma Cihazı",
+    "p": [
+      "bAdım, “gerçek adım takibi” özelliğine sahip bir basamak aydınlatma cihazıdır. 12 basamağa kadar, 4 adet sensör desteklemektedir. WIFI özelliği sayesinde herhangi bir uygulama indirmeden, telefon, bilgisayar veya tablet üzerinden kolaylıkla cihaza bağlanılarak ayarlamalar yapılabilmektedir.",
+      "Diğer basamak aydınlatma sistemlerinde standart olarak 2 adet sensör kullanılmaktadır. Sensörlerden biri ilk basamağa, diğeri ise son basamağa yerleştirilmektedir. Kullanıcı ilk basamağa adım attığında cihaz tetiklenmekte ve kullanıcının konumundan bağımsız olarak, son basamağa kadar tüm basamaklarda bulunan ledler sırayla yanmaktadır. Bu nedenle bu cihazlarda adım takibi yapılamamaktadır.",
+      "bAdım’da 4 adet sensör kullanılmaktadır. Bunlardan ikisi, diğer cihazlara benzer olarak ilk ve son basamaklara yerleştirilmektedir. Geri kalan iki sensör ise aradaki basamaklardan istenilen ikisine yerleştirilmektedir. Bu 4 sensörden gelen verinin işlenmesiyle, kullanıcı merdivende yürüdükçe önünde bulunan ledler yakılmakta, arkasında bulunan ledler söndürülmektedir. Böylelikle “gerçek adım takibi” sağlanmaktadır. Bu özellik merdivende aynı anda birden fazla kişinin bulunduğu durumlarda da çalışabilmektedir."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bAdim/1.webp",
+        "p": [
+          "Diğer cihazlara üstün bir diğer nokta ise kullanılan sensör tipidir. Diğer cihazlarda hareket sensörü kullanılmaktadır. Hareket sensörleri, beş, sekiz saniye gibi uzun sürelerde bir okuma yapabilen, mesafe sınırı koyulamayan, basamak aydınlatması için aşırı yüksek okuma açılarına sahip cihazlardır. Bu nedenle sıklıkla yanlış okumalar yaşanabilmekte ve u merdiven, döner merdiven gibi farklı tip merdivenlerde sağlıklı şekilde kullanılamamaktadır. Mesafe kısıtlaması yapılamaması nedeniyle korkuluğun dış tarafından geçilirken yanlış okumalar yapılmaktadır."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bAdim/2.webp",
+        "p": [
+          "bAdım’da ise mesafe sensörü kullanılmaktadır. Bu sensörün okuma açısı, basamak aydınlatması için ideal şekilde dardır. Kullanılan 4 sensör ile saniyede yaklaşık 4 okuma yapabilmektedir. Her sensör için ayrı basamak genişliği atanabilmektedir. Böylelikle, hareket sensörüne kıyasla çok daha az hatalı okuma yapılmaktadır. Korkulukların açık veya kapalı olmasından veya merdiven tipinden tamamen bağımsız olarak faklı şartlarda sorunsuzca çalışabilmektedir."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bAdim/3.webp",
+        "p": [
+          "bAdım’a WIFI üzerinden bağlanılarak cihazla ilgili tüm ayarlamalar yapılabilmektedir. Bu bağlantı doğrudan cihaza bağlanılarak veya “ağ ayarları” bölümünden ortamda bulunan ağın adı ve parolası girilerek cihaza ortamdaki ağ üzerinden bağlanılarak yapılabilmektedir. Bu işlemleri yapabilmek için herhangi bir program indirilmesi/kurulması gerekmez, herhangi bir internet tarayıcısı kullanılarak bilgisayar, telefon veya tablet ile cihaz ayarlarına ulaşılabilmektedir."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bAdim/4.webp",
+        "p": [
+          "“Parametreler” bölümünde; kullanılan basamak sayısı, yakma ve söndürme sırasında basamak arasında bekleme süresi, aydınlatma süresi gibi çeşitli parametreler ayarlanabilmektedir. “Sensörler” bölümünde ise basamak genişliği değerleri atanabilmektedir ve hangi sensörün hangi basamağı aydınlatacağı seçilebilmektedir."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bAdim/5.webp",
+        "li": [
+          "80Mhz 32 bit işlemci",
+          "2.4Ghz WIFI",
+          "250VAC/30VDC 10A tetikleme",
+          "5VDC çalışma voltajı",
+          "250mA akım kullanımı",
+          "147x115x29mm boyut",
+          "316 gram ağırlık"
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": false,
+        "imageUrl": "assets/products/bAdim/6.webp",
+        "li": [
+          "40kHz çalışma frekansı",
+          "2cm–4m menzil",
+          "15° görüş açısı",
+          "5VDC çalışma voltajı",
+          "15mA akım kullanımı",
+          "51x26x15mm boyut",
+          "36 gram ağırlık"
+        ]
+      }
+    ]
+  }
+]

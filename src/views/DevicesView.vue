@@ -1,22 +1,22 @@
 <template>
   <div class="home">
     <div v-for="item in json" :key="item.id">
-      <ElementA v-if="item.id === 'ElementA-1'" :object="item" />
-      <ElementB v-else-if="item.id === 'ElementB-1'" :object="item" />
-      <ElementA v-if="item.id === 'ElementA-2'" :object="item" />
-      <ElementC v-else-if="item.id === 'ElementC-1'" :object="item" />
+      <HomeLayoutA v-if="item.id === 'HomeLayoutA-1'" :object="item" />
+      <HomeLayoutB v-else-if="item.id === 'HomeLayoutB-1'" :object="item" />
+      <HomeLayoutA v-if="item.id === 'HomeLayoutA-2'" :object="item" />
+      <HomeLayoutC v-else-if="item.id === 'HomeLayoutC-1'" :object="item" />
     </div>
   </div>
 </template>
 
 <script>
 import _json from "@/jsons/devices.json";
-import ElementA from "@/components/layout/elements/ElementA.vue";
-import ElementB from "@/components/layout/elements/ElementB.vue";
-import ElementC from "@/components/layout/elements/ElementC.vue";
+import HomeLayoutA from "@/components/layout/HomeLayoutA.vue";
+import HomeLayoutB from "@/components/layout/HomeLayoutB.vue";
+import HomeLayoutC from "@/components/layout/HomeLayoutC.vue";
 
 export default {
-  name: "HomePage",
+  name: "DevicesView",
   created() {},
   data() {
     return {
@@ -26,9 +26,9 @@ export default {
   props: {},
   methods: {},
   components: {
-    ElementA,
-    ElementB,
-    ElementC,
+    HomeLayoutA,
+    HomeLayoutB,
+    HomeLayoutC,
   },
 };
 </script>

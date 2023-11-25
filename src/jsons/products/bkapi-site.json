@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bKapi-site/0.webp",
+    "videoUrl": "https://www.youtube.com/embed/6wSwp_zqaq0?si=DVAq6PqJvP31MhC4",
+    "h1": "bKapı -site",
+    "h2": "Araç/Yaya Geçiş Sistemi",
+    "p": [
+      "bKapı -site, plaka tanıma özelliği sayesinde kayıtlı araç otomatik kapıya yaklaştığında ve akıllı telefon, tablet ve bilgisayar üzerinde çalışabilen uygulaması üzerindeki butona basıldığında site kapısını/bariyerini açan bir araç/yaya geçiş sistemidir. Bilgisayar kullanılmadan küçük boyutlardaki cihazlarda çalışma, geçiş sırasında SMS gönderme ve TTS teknolojisi ile bilgileri sesli olarak okuma gibi kendine has özellikleri bulunmaktadır."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKapi-site/1.webp",
+        "li": [
+          "IP kamera üzerinden plaka tanıma",
+          "Kayıtlı araca otomatik kapı açma",
+          "Geçişlerin, resimleriyle birlikte kayıtlarını tutma",
+          "Uygulama ile uzaktan giriş, çıkış ve yaya kapılarını görüntüleme ve açma",
+          "Araç geçişi sırasında Telegram üzerinden mesaj ve resim gönderme, SMS gönderme",
+          "Yasaklı araç tespit edilmesi halinde yöneticilere SMS gönderme",
+          "Geçiş sırasında araç bilgilerinin gösterilmesi ve TTS teknolojisi ile sesli olarak okunması",
+          "Kamera görüntülerinin canlı olarak gösterilmesi"
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bKapi-site/2.webp",
+        "li": [
+          "WIFI üzerinden kablosuz iletişim",
+          "Klavye/mouse ile kullanım imkanı",
+          "Uzak masaüstü ile uzaktan erişim imkanı",
+          "USB bellek veya uzak masaüstü bağlantısı ile geçiş sırasında çekilmiş resimleri alabilme",
+          "Bir yöne birden fazla kamera atayabilme",
+          "Bilgisayar kullanılmadan, küçük boyutlardaki bir cihaz üzerinde çalışma",
+          "Monitör ile çalışabilme"
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKapi-site/3.webp",
+        "li": [
+          "4 çekirdek 2.4GHz 64 bit işlemci",
+          "4/8 GB RAM",
+          "256 GB depolama alanı",
+          "2 adet 4K monitör desteği",
+          "2.4/5 Ghz WIFI",
+          "Gigabit ethernet portu",
+          "2 adet USB 2.0 ve 2 adet USB 3.0 portu",
+          "Bluetooth 5.0/BLE",
+          "5V/5ADC USB-C",
+          "RTC Saat"
+        ]
+      }
+    ]
+  }
+]

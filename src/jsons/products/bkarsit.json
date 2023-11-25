@@ -1,0 +1,75 @@
+[
+  {
+    "id": "ProductLayoutA",
+    "imageUrl": "assets/products/bKarsit/0.webp",
+    "h1": "bKarşıt",
+    "h2": "Karşıt İnceleme Tutanağı Hazırlama Uygulaması",
+    "p": [
+      "bKarşıt, YMM’ler, denetim şirketleri ve bağımsız denetçilerin çalışmalarını kolaylaştırmak amacıyla geliştirdiğimiz, karşıt inceleme tutanağı dispozisyonu sunan bir uygulamadır. Geliştirdiğimiz arayüz kullanılarak, İndirilecek/Yüklenilen KDV Listesi veya haricen Excel ortamında hazırlanmış listelerin uygulamaya yüklenmesiyle hızlı ve güvenilir biçimde karşıt inceleme tutanakları hazırlanmaktadır. Deneyimli denetçilerle yapılan çalışmalarımız sonucunda geliştirdiğimiz algoritmalar ve arayüz sayesinde programın kullanımı oldukça basittir ve Excel vb. programlar ile yapıldığı zaman saatlerce sürebilen işlemleri dakikalar içinde gerçekleştirebilmektedir."
+    ]
+  },
+  {
+    "id": "ProductLayoutB",
+    "subElements": [
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKarsit/1.webp",
+        "li": [
+          "YMM ve denetçiler için “Karşıt İnceleme ve Teyit Tutanağı” hazırlamak için kullanılır.",
+          "Üzerinde inceleme yapılacak olan İndirilecek/Yüklenilen KDV Listesi dosyası için .xlsx, .csv ve .html dosya tipleri desteklenir.",
+          "Ana ekran üzerinde, inceleme yapılacak KDV Listesi’nin tablosu dışında bu listede bulunan firmaların çeşitli bilgilerinin gösterildiği bir tablo bulunur. Fatura seçimi her iki tablodan da aynı anda yapılabilir."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bKarsit/2.webp",
+        "li": [
+          "Satıcı firmalar tablosu üzerindeki kutucuklar kullanılarak KDV yüzdesi alt sınırı değeri (varsayılan olarak yüzde 80’dir), aynı gün için sınır tutarı (varsayılan değeri 36.000,00’dir), tüm faturalar için aylık sınır tutarı (varsayılan değeri 106.000,00’dir) girilebilir. Geliştirdiğimiz algoritma ile bu sınırlar kullanılarak seçim önerilebilir veya sadece sınır tutarlarını aşan satıcı firmalar seçilebilir. Bu tutarı aşan firmaların ilgili sütunları sarı ve yeşil renklerle boyanır.",
+          "Satıcı firma, alıcı firma, YMM ve SMMM bilgileri veri tabanında tutulur, bu veriler ayarlar sekmesinden düzenlenebilir, eklenebilir veya silinebilir. Bu bilgiler daha sonraki incelemelerde kullanıcının karşısına getirilerek tutanakları yazma işlemi birkaç saniyeye kadar indirilebilir."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKarsit/3.webp",
+        "li": [
+          "Satıcı firma eğer bir YMM ile anlaşmalıysa teyit tutanağı, değilse karşıt inceleme tutanağı hazırlanır. Ayrıca satıcı firmaların bulunduğu tabloda teyit yazılacak firmaların YMM / SMMM sütunları yeşile, karşıt yazılacak firmaların YMM / SMMM sütunları sarıya boyanır.",
+          "İnceleme işlemi yapılırken karşıt inceleme veya teyit tutanağı hazırlanacak satıcı firmalar onaylanmak üzere kullanıcının karşısına getirilir.",
+          "İnceleme işlemini yaparken ilgili kutucuğun işaretlenmesi halinde Karşıt İnceleme Tutanağına kapak eklenebilir. İstenilecek belgeler kutucukları kullanarak seçilir. Yapılan kutucuk seçimleri şablonlar halinde kaydedilebilir. Aynı inceleme işlemi içinde farklı belgelerin istenildiği kapaklar oluşturulabilir."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bKarsit/4.webp",
+        "li": [
+          "Tutanaklar .html dosya tipinde oluşturulur, ofis programları ve internet tarayıcılarıyla açılabilir. Sayfa boyutları dokümantasyona uygun olarak sağ kenardan 1 cm, diğer kenarlardan 2.5 cm boşluk bırakılacak şekilde ayarlanmıştır.",
+          "Her inceleme işleminden sonra ilgili firmalar hakkında çeşitli bilgilerin bulunduğu bir takip çizelgesi dosyası oluşturulur. Bu dosya tercihe göre .xlsx veya .html dosya tipinde oluşturulur.",
+          "Dosya açıldığında bir onaylama ekranı gelir, bu ekranda yüklenilen dosya içindeki bilgiler görünür. Onaylanması halinde dosya açılır ve içindeki satıcı firma bilgileri veri tabanına aktarılır."
+        ]
+      },
+      {
+        "imageOnLeft": true,
+        "background": true,
+        "imageUrl": "assets/products/bKarsit/5.webp",
+        "li": [
+          "Ayarlar sekmesinden program ile ilgili çeşitli ayarların yapılabilmesinin dışında veri tabanında bulunan veriler içe ve dışa aktarılabilir.",
+          "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veri tabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
+          "Web tabanlı değildir. Bu nedenle internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
+        ]
+      },
+      {
+        "imageOnLeft": false,
+        "background": false,
+        "imageUrl": "assets/products/bKarsit/6.webp",
+        "li": [
+          "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
+          "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
+          "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
+        ]
+      }
+    ]
+  }
+]

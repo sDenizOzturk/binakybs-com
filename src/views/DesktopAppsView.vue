@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
-    <ElementC v-for="item in json" :key="item" :object="item" />
+    <HomeLayoutC v-for="item in json" :key="item" :object="item" />
   </div>
 </template>
 
 <script>
 import _json from "@/jsons/desktopApps.json";
-import ElementC from "@/components/layout/elements/ElementC.vue";
+import HomeLayoutC from "@/components/layout/HomeLayoutC.vue";
 
 export default {
   name: "DesktopAppsView",
@@ -19,7 +19,7 @@ export default {
   props: {},
   methods: {},
   components: {
-    ElementC,
+    HomeLayoutC,
   },
 };
 </script>
