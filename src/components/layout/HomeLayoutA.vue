@@ -1,9 +1,6 @@
 <template>
-  <div class="page">
-    <div
-      class="background"
-      :style="{ 'background-image': 'url(' + require('@/' + object.imageUrl) + ')' }"
-    >
+  <div class="layout">
+    <div class="background" :style="imageStyle">
       <div class="text-wrapper">
         <h1 v-html="object.h1"></h1>
         <h2 v-html="object.h2"></h2>
@@ -20,14 +17,14 @@ import ButtonA from "@/components/ui/ButtonA.vue";
 export default {
   components: { ButtonA },
   name: "HomeLayoutA",
-  created() {},
-  data() {
-    return {};
-  },
   props: {
     object: Object,
   },
-  methods: {},
+  computed: {
+    imageStyle() {
+      return { "background-image": "url(" + require("@/" + this.object.imageUrl) + ")" };
+    },
+  },
 };
 </script>
 
@@ -38,7 +35,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.page {
+.layout {
   height: 90vh;
   margin: 0;
 }
@@ -71,7 +68,7 @@ h3 {
   font-weight: 300;
 }
 @media screen and (orientation: portrait) {
-  .page {
+  .layout {
     height: 60vmin;
   }
   .text-wrapper {

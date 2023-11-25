@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="layout">
     <div
       :class="subElement.background ? 'background' : ''"
       v-for="subElement in object.subElements"
@@ -25,19 +25,14 @@
 <script>
 export default {
   name: "ProductLayoutA",
-  created() {},
-  data() {
-    return {};
-  },
   props: {
     object: Object,
   },
-  methods: {},
 };
 </script>
 
 <style scoped>
-.page {
+.layout {
   margin: auto;
 }
 

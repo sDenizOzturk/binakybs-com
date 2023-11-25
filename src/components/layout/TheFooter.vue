@@ -1,4 +1,3 @@
-<!-- eslint-disable vuejs-accessibility/anchor-has-content -->
 <template>
   <div class="footer">
     <div class="leftItem">
@@ -21,15 +20,12 @@ a
 import _jsonContactUs from "@/jsons/contactUs.json";
 
 export default {
-  name: "FooterComponent",
-  created() {},
+  name: "TheFooter",
   data() {
     return {
       jsonContactUs: _jsonContactUs,
     };
   },
-  props: {},
-  methods: {},
 };
 </script>
 
@@ -67,7 +63,7 @@ p {
   color: var(--color3);
   font-size: 2.25vmin;
   margin: auto 0;
-  filter: drop-shadow(var(--color3_4) 0.1vh 1vh 1vh);
+  filter: drop-shadow(var(--color3_3) 0.1vh 1vh 1vh);
 }
 
 .logo {

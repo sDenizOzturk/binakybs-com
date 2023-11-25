@@ -1,12 +1,6 @@
 <template>
   <div class="menu">
-    <ButtonB
-      v-for="item in buttons"
-      :key="item"
-      :object="item"
-      :style="getStyle(item.target)"
-      class="menuButton"
-    />
+    <ButtonB v-for="item in buttons" :key="item" :object="item" class="menuButton" />
   </div>
 </template>
 
@@ -17,8 +11,7 @@ export default {
   components: {
     ButtonB,
   },
-  name: "HeaderComponent",
-  created() {},
+  name: "TheHeader",
   data() {
     return {
       buttons: [
@@ -28,12 +21,6 @@ export default {
         { text: "İletişim", target: "/iletisim" },
       ],
     };
-  },
-  props: {},
-  methods: {
-    getStyle(path) {
-      return this.$route.path === path ? "background: var(--color3); " : "";
-    },
   },
 };
 </script>

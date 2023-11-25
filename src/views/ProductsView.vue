@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="view">
     <div v-for="item in json" :key="item.id">
       <ProductLayoutA v-if="item.id === 'ProductLayoutA'" :object="item" />
       <ProductLayoutB v-else-if="item.id === 'ProductLayoutB'" :object="item" />
@@ -27,8 +27,6 @@ export default {
       json: undefined,
     };
   },
-  props: {},
-  methods: {},
   components: {
     ProductLayoutA,
     ProductLayoutB,
@@ -37,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-.home {
+.view {
   display: flex;
   flex-direction: column;
   margin: 0;

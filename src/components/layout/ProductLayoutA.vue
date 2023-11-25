@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="layout">
     <div class="heading">
       <h1>{{ object.h1 }}</h1>
       <h2>
@@ -16,9 +16,7 @@
       ></iframe>
     </div>
 
-    <div class="image" v-if="object.imageUrl">
-      <img :src="require('@/' + object.imageUrl)" alt="" />
-    </div>
+    <div class="image" v-if="object.imageUrl"><img :src="imageUrl" alt="" />""</div>
 
     <div class="text-wrapper">
       <p v-for="item in object.p" :key="item" v-html="item"></p>
@@ -32,18 +30,19 @@ export default {
   created() {
     window.scrollTo(0, 0);
   },
-  data() {
-    return {};
-  },
   props: {
     object: Object,
   },
-  methods: {},
+  computed: {
+    imageUrl() {
+      return this.object && require("@/" + this.object.imageUrl);
+    },
+  },
 };
 </script>
 
 <style scoped>
-.page {
+.layout {
   margin: 0;
 }
 

@@ -1,6 +1,6 @@
 <!-- eslint-disable vuejs-accessibility/anchor-has-content -->
 <template>
-  <div class="page">
+  <div class="view">
     <div
       v-for="object in json"
       :key="object"
@@ -29,19 +29,16 @@ import _json from "@/jsons/contactUs.json";
 
 export default {
   name: "ContactUsView",
-  created() {},
   data() {
     return {
       json: _json,
     };
   },
-  props: {},
-  methods: {},
 };
 </script>
 
 <style scoped>
-.page {
+.view {
   height: 70vh;
   margin: 0;
   min-height: 79vh;

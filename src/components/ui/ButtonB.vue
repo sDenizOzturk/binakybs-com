@@ -1,5 +1,5 @@
 <template>
-  <button class="button" @click="$router.push(object.target)">
+  <button class="button" @click="$router.push(object.target)" :class="buttonClass">
     <span class="text">
       {{ object.text }}
     </span>
@@ -9,14 +9,14 @@
 <script>
 export default {
   name: "ButtonB",
-  created() {},
-  data() {
-    return {};
-  },
   props: {
     object: Object,
   },
-  methods: {},
+  computed: {
+    buttonClass() {
+      return this.$route.path === this.object.target ? "active" : "";
+    },
+  },
 };
 </script>
 
@@ -80,5 +80,9 @@ export default {
 .button span {
   z-index: 1;
   position: relative;
+}
+
+.active {
+  background: var(--color3);
 }
 </style>

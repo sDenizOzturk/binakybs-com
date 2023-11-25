@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="view">
     <HomeLayoutC v-for="item in json" :key="item" :object="item" />
   </div>
 </template>
@@ -10,14 +10,11 @@ import HomeLayoutC from "@/components/layout/HomeLayoutC.vue";
 
 export default {
   name: "DesktopAppsView",
-  created() {},
   data() {
     return {
       json: _json,
     };
   },
-  props: {},
-  methods: {},
   components: {
     HomeLayoutC,
   },
@@ -26,7 +23,7 @@ export default {
 
 <style scoped>
 @media screen and (orientation: landscape) {
-  .wrapper {
+  .view {
     min-height: 79vh;
     display: flex;
     justify-content: center;

@@ -25,14 +25,9 @@ import ButtonB from "@/components/ui/ButtonB.vue";
 
 export default {
   name: "SubHomeLayoutC",
-  created() {},
-  data() {
-    return {};
-  },
   props: {
     object: Object,
   },
-  methods: {},
   components: {
     ButtonB,
   },

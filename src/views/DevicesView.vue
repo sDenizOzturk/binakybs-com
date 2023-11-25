@@ -1,9 +1,9 @@
 <template>
-  <div class="home">
+  <div class="view">
     <div v-for="item in json" :key="item.id">
       <HomeLayoutA v-if="item.id === 'HomeLayoutA-1'" :object="item" />
       <HomeLayoutB v-else-if="item.id === 'HomeLayoutB-1'" :object="item" />
-      <HomeLayoutA v-if="item.id === 'HomeLayoutA-2'" :object="item" />
+      <HomeLayoutA v-else-if="item.id === 'HomeLayoutA-2'" :object="item" />
       <HomeLayoutC v-else-if="item.id === 'HomeLayoutC-1'" :object="item" />
     </div>
   </div>
@@ -17,14 +17,11 @@ import HomeLayoutC from "@/components/layout/HomeLayoutC.vue";
 
 export default {
   name: "DevicesView",
-  created() {},
   data() {
     return {
       json: _json,
     };
   },
-  props: {},
-  methods: {},
   components: {
     HomeLayoutA,
     HomeLayoutB,
@@ -34,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.home {
+.view {
   display: flex;
   flex-direction: column;
   margin: 0;

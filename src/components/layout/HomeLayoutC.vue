@@ -1,19 +1,19 @@
 <template>
-  <div class="page">
+  <div class="layout">
     <div class="div_left_image">
-      <img :src="require('@/' + leftObject.imageUrl)" alt="" />
+      <img :src="leftImageUrl" alt="" />
     </div>
     <div class="div_left_content">
       <SubHomeLayoutC :object="leftObject" />
     </div>
     <div class="div_center_image">
-      <img :src="require('@/' + centerObject.imageUrl)" alt="" />
+      <img :src="centerImageUrl" alt="" />
     </div>
     <div class="div_center_content">
       <SubHomeLayoutC :object="centerObject" :buttonCss="buttonCss" />
     </div>
     <div class="div_right_image">
-      <img :src="require('@/' + rightObject.imageUrl)" alt="" />
+      <img :src="rightImageUrl" alt="" />
     </div>
     <div class="div_right_content">
       <SubHomeLayoutC :object="rightObject" />
@@ -26,7 +26,6 @@ import SubHomeLayoutC from "./SubHomeLayoutC.vue";
 
 export default {
   name: "HomeLayoutC",
-  created() {},
   data() {
     return {
       leftObject: this.object.leftObject,
@@ -38,15 +37,25 @@ export default {
   props: {
     object: Object,
   },
-  methods: {},
   components: {
     SubHomeLayoutC,
+  },
+  computed: {
+    leftImageUrl() {
+      return require("@/" + this.leftObject.imageUrl);
+    },
+    centerImageUrl() {
+      return require("@/" + this.centerObject.imageUrl);
+    },
+    rightImageUrl() {
+      return require("@/" + this.rightObject.imageUrl);
+    },
   },
 };
 </script>
 
 <style scoped>
-.page {
+.layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -86,7 +95,7 @@ img {
   object-fit: scale-down;
 }
 @media screen and (orientation: portrait) {
-  .page {
+  .layout {
     display: flex;
     flex-direction: column;
     margin: 0;

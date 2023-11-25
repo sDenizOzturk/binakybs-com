@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
+  <div class="layout">
     <div class="div_left">
-      <img :src="require('@/' + object.imageUrl)" alt="" />
+      <img :src="imageUrl" alt="" />
     </div>
     <div class="div_right">
       <h1 v-show="object.h1" v-html="object.h1"></h1>
@@ -18,7 +18,6 @@ import ButtonB from "@/components/ui/ButtonB.vue";
 
 export default {
   name: "HomeLayoutB",
-  created() {},
   data() {
     return {
       rightWidth: this.object.rightWidth,
@@ -28,15 +27,19 @@ export default {
   props: {
     object: Object,
   },
-  methods: {},
   components: {
     ButtonB,
+  },
+  computed: {
+    imageUrl() {
+      return require("@/" + this.object.imageUrl);
+    },
   },
 };
 </script>
 
 <style scoped>
-.page {
+.layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;

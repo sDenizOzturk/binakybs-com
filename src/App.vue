@@ -1,13 +1,14 @@
 <template>
   <Header />
-  <router-view />
+  <Transition name="route">
+    <router-view />
+  </Transition>
   <Footer />
 </template>
 
 <script>
-import Header from "@/components/layout/Header.vue";
-import Footer from "@/components/layout/Footer.vue";
-
+import Header from "@/components/layout/TheHeader.vue";
+import Footer from "@/components/layout/TheFooter.vue";
 export default {
   components: {
     Header,
@@ -42,5 +43,29 @@ body {
 }
 img {
   filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.1vmin 1vmin 1vmin);
+}
+
+.route-enter-from {
+  opacity: 0;
+  transform: translateX(-1vmin);
+}
+
+.route-leave-to {
+  opacity: 0;
+  transform: translateX(1vmin);
+}
+
+.route-enter-active {
+  transition: all 1s ease-out;
+}
+
+.route-leave-active {
+  transition: all 1s ease-in;
+}
+
+.route-enter-to,
+.route-leave-from {
+  opacity: 1;
+  transform: translateX(0);
 }
 </style>
