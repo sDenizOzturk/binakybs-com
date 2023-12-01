@@ -31,6 +31,11 @@ const routes = [
     name: "urun",
     component: () => import("@/views/ProductsView.vue"),
   },
+  {
+    path: "/gizlilik-politikalari",
+    name: "gizlilik-politikalari",
+    component: () => import("@/views/PrivacyPoliciesView.vue"),
+  },
 ];
 
 const router = createRouter({
