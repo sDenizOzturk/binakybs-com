@@ -15,7 +15,7 @@
     </div>
   </div>
 </template>
-a
+
 <script>
 import _jsonContactUs from "@/jsons/contactUs.json";
 
@@ -42,35 +42,36 @@ export default {
 }
 .leftItem {
   text-align: left;
-  margin: 2vmin;
+  margin: 0.8rem;
 }
-.centerItem {
+.centerItem p {
   text-align: center;
+  font-size: 1rem;
 }
 .rightItem {
   text-align: right;
-  margin-right: 2vmin;
+  margin-right: 0.8rem;
   display: flex;
   justify-content: right;
 }
 .linkImage {
-  height: 4vmin;
-  margin: 1vmin;
+  height: 1.5rem;
+  margin: 0.4rem;
   filter: drop-shadow(var(--color3_3) 0.1vh 0.5vh 0.5vh);
 }
 
 p {
   color: var(--color3);
-  font-size: 2.25vmin;
+  font-size: 0.8rem;
   margin: auto 0;
   filter: drop-shadow(var(--color3_3) 0.1vh 1vh 1vh);
 }
 
 .logo {
-  height: 7vmin;
-  margin: 0;
+  height: 3.5rem;
+  margin: 0.6rem;
   margin-left: 1.5vmin;
-  margin-right: 1vmin;
+  margin-right: 0.3rem;
   filter: drop-shadow(var(--color3_4) 0.1vh 1vh 1vh);
 }
 

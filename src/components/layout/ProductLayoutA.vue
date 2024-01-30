@@ -63,7 +63,7 @@ img {
 .heading {
   background: var(--color2_9);
   padding: 2vh 0;
-  margin-top: 1vh;
+  margin-top: 1rem;
   width: 50%;
   margin: auto;
   filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.1vmin 1.5vmin 1.5vmin);
@@ -72,20 +72,20 @@ img {
 h1,
 h2 {
   color: var(--color3);
-  margin: 0 2vmin;
+  margin: 0 1rem;
   text-align: center;
 }
 h1 {
-  font-size: 5vh;
+  font-size: 2rem;
   font-weight: 500;
 }
 h2 {
-  font-size: 2.5vh;
+  font-size: 1rem;
   font-weight: 400;
 }
 .video-container {
   width: 50%;
-  margin: 2vh auto;
+  margin: 0.8rem auto;
 }
 .video-container iframe {
   width: 100%;

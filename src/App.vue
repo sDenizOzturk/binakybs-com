@@ -39,8 +39,22 @@ body {
   color: var(--color2);
   margin: 0;
   padding: 0;
-  font-size: 2.25vh;
+  font-size: 1em;
 }
+
+@media (pointer: none), (pointer: coarse) {
+  @media (orientation: portrait) {
+    :root {
+      font-size: 2.25vh;
+    }
+  }
+  @media (orientation: landscape) {
+    :root {
+      font-size: 2.5vh;
+    }
+  }
+}
+
 img {
   filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.1vmin 1vmin 1vmin);
 }

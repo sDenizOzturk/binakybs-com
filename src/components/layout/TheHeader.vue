@@ -33,9 +33,11 @@ export default {
   gap: 10px;
   background: var(--color3_1);
 }
+
 .menuButton {
-  font-size: 2.25vh;
+  font-size: 1rem;
 }
+
 @media screen and (orientation: portrait) {
   .menu {
     display: grid;
@@ -44,8 +46,17 @@ export default {
     margin: 1vmin;
     gap: 0;
   }
-  .menuButton {
-    font-size: 1.75vh;
+}
+@media (pointer: none), (pointer: coarse) {
+  @media (orientation: portrait) {
+    .menuButton {
+      font-size: 0.7rem;
+    }
+  }
+  @media (orientation: landscape) {
+    .menuButton {
+      font-size: 1.25rem;
+    }
   }
 }
 </style>
