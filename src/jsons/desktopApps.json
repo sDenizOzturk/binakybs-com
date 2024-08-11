@@ -1,41 +1,84 @@
-[
-  {
-    "imageWidth": "90%",
-    "leftObject": {
-      "imageUrl": "assets/desktopApps/bKarsit.webp",
-      "h1": "bKarşıt",
-      "h2": "Karşıt İnceleme Tutanağı<br>Hazırlama Uygulaması",
-      "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/bkarsit"
-        }
-      ]
-    },
-    "centerObject": {
-      "imageUrl": "assets/desktopApps/bKDV.webp",
-      "h1": "bKDV",
-      "h2": "İndirilecek ve Yüklenilen KDV Listesi<br>Hazırlama Uygulaması",
-      "h3": "YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/bkdv"
-        }
-      ]
-    },
-    "rightObject": {
-      "imageUrl": "assets/desktopApps/bGumruk.webp",
-      "h1": "bGümrük",
-      "h2": "Gümrük Çıkış Beyannamesi ve Satış Faturaları<br>Listeleri Hazırlama Uygulaması",
-      "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/bgumruk"
-        }
-      ]
+{
+  "tr": [
+    {
+      "imageWidth": "90%",
+      "leftObject": {
+        "imageUrl": "assets/desktopApps/bKarsit.webp",
+        "h1": "bKarşıt",
+        "h2": "Karşıt İnceleme Tutanağı<br>Hazırlama Uygulaması",
+        "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/bkarsit"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/desktopApps/bKDV.webp",
+        "h1": "bKDV",
+        "h2": "İndirilecek ve Yüklenilen KDV Listesi<br>Hazırlama Uygulaması",
+        "h3": "YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/bkdv"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/desktopApps/bGumruk.webp",
+        "h1": "bGümrük",
+        "h2": "Gümrük Çıkış Beyannamesi ve Satış Faturaları<br>Listeleri Hazırlama Uygulaması",
+        "h3": "YMM'ler, denetim şirketleri ve bağımsız denetçiler için",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/bgumruk"
+          }
+        ]
+      }
     }
-  }
-]
+  ],
+  "en": [
+    {
+      "imageWidth": "90%",
+      "leftObject": {
+        "imageUrl": "assets/desktopApps/bKarsit.webp",
+        "h1": "bKarşıt",
+        "h2": "Counter Examination Report<br>Preparation Application",
+        "h3": "For YMMs, audit firms, and independent auditors",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/bkarsit"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/desktopApps/bKDV.webp",
+        "h1": "bKDV",
+        "h2": "Preparation Application for<br>Deductible and Input VAT Lists",
+        "h3": "For YMMs, SMMs, and firms related to VAT refunds",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/bkdv"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/desktopApps/bGumruk.webp",
+        "h1": "bCustoms",
+        "h2": "Customs Exit Declaration and Sales Invoice<br>List Preparation Application",
+        "h3": "For YMMs, audit firms, and independent auditors",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/bgumruk"
+          }
+        ]
+      }
+    }
+  ]
+}

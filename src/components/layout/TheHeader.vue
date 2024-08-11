@@ -1,7 +1,7 @@
 <template>
-  <div class="menu">
+  <header class="menu">
     <ButtonB v-for="item in buttons" :key="item" :object="item" class="menuButton" />
-  </div>
+  </header>
 </template>
 
 <script>
@@ -12,15 +12,25 @@ export default {
     ButtonB,
   },
   name: "TheHeader",
-  data() {
-    return {
-      buttons: [
-        { text: "Cihazlar ve Sistemler", target: "/cihazlar-sistemler" },
-        { text: "Mobil Uygulamalar", target: "/mobil-uygulamalar" },
-        { text: "Masaüstü Uygulamalar", target: "/masaustu-uygulamalar" },
-        { text: "İletişim", target: "/iletisim" },
-      ],
-    };
+
+  computed: {
+    buttons() {
+      if (this.$route.params.language === "tr") {
+        return [
+          { text: "Cihazlar ve Sistemler", target: "/tr/cihazlar-sistemler" },
+          { text: "Mobil Uygulamalar", target: "/tr/mobil-uygulamalar" },
+          { text: "Masaüstü Uygulamalar", target: "/tr/masaustu-uygulamalar" },
+          { text: "İletişim", target: "/tr/iletisim" },
+        ];
+      } else {
+        return [
+          { text: "Devices and Systems", target: "/en/cihazlar-sistemler" },
+          { text: "Mobile Applications", target: "/en/mobil-uygulamalar" },
+          { text: "Desktop Applications", target: "/en/masaustu-uygulamalar" },
+          { text: "Contact", target: "/en/iletisim" },
+        ];
+      }
+    },
   },
 };
 </script>
@@ -30,12 +40,20 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
   background: var(--color3_1);
+  border-bottom: 1px solid var(--color3_4);
 }
 
 .menuButton {
   font-size: 1rem;
+  padding: 1.6rem 2rem;
+}
+
+.language-wrapper button:hover {
+  color: green;
+  border: 0;
+  cursor: pointer;
 }
 
 @media screen and (orientation: portrait) {
@@ -43,19 +61,21 @@ export default {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    margin: 1vmin;
+    padding: 0.2rem;
     gap: 0;
   }
 }
 @media (pointer: none), (pointer: coarse) {
   @media (orientation: portrait) {
     .menuButton {
-      font-size: 0.7rem;
+      font-size: 1.6rem;
+      padding: 2.4rem 2rem;
     }
   }
   @media (orientation: landscape) {
     .menuButton {
       font-size: 1.25rem;
+      padding: 2rem 2.5rem;
     }
   }
 }

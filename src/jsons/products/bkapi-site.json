@@ -1,62 +1,140 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "videoUrl": "https://www.youtube.com/embed/6wSwp_zqaq0?si=DVAq6PqJvP31MhC4",
-    "h1": "bKapı -site",
-    "h2": "Araç/Yaya Geçiş Sistemi",
-    "p": [
-      "bKapı -site, plaka tanıma özelliği sayesinde kayıtlı araç otomatik kapıya yaklaştığında ve akıllı telefon, tablet ve bilgisayar üzerinde çalışabilen uygulaması üzerindeki butona basıldığında site kapısını/bariyerini açan bir araç/yaya geçiş sistemidir. Bilgisayar kullanılmadan küçük boyutlardaki cihazlarda çalışma, geçiş sırasında SMS gönderme ve TTS teknolojisi ile bilgileri sesli olarak okuma gibi kendine has özellikleri bulunmaktadır."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKapi-site/1.webp",
-        "li": [
-          "IP kamera üzerinden plaka tanıma",
-          "Kayıtlı araca otomatik kapı açma",
-          "Geçişlerin, resimleriyle birlikte kayıtlarını tutma",
-          "Uygulama ile uzaktan giriş, çıkış ve yaya kapılarını görüntüleme ve açma",
-          "Araç geçişi sırasında Telegram üzerinden mesaj ve resim gönderme, SMS gönderme",
-          "Yasaklı araç tespit edilmesi halinde yöneticilere SMS gönderme",
-          "Geçiş sırasında araç bilgilerinin gösterilmesi ve TTS teknolojisi ile sesli olarak okunması",
-          "Kamera görüntülerinin canlı olarak gösterilmesi"
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKapi-site/2.webp",
-        "li": [
-          "WIFI üzerinden kablosuz iletişim",
-          "Klavye/mouse ile kullanım imkanı",
-          "Uzak masaüstü ile uzaktan erişim imkanı",
-          "USB bellek veya uzak masaüstü bağlantısı ile geçiş sırasında çekilmiş resimleri alabilme",
-          "Bir yöne birden fazla kamera atayabilme",
-          "Bilgisayar kullanılmadan, küçük boyutlardaki bir cihaz üzerinde çalışma",
-          "Monitör ile çalışabilme"
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKapi-site/3.webp",
-        "li": [
-          "4 çekirdek 2.4GHz 64 bit işlemci",
-          "4/8 GB RAM",
-          "256 GB depolama alanı",
-          "2 adet 4K monitör desteği",
-          "2.4/5 Ghz WIFI",
-          "Gigabit ethernet portu",
-          "2 adet USB 2.0 ve 2 adet USB 3.0 portu",
-          "Bluetooth 5.0/BLE",
-          "5V/5ADC USB-C",
-          "RTC Saat"
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "videoUrl": "https://www.youtube.com/embed/6wSwp_zqaq0?si=DVAq6PqJvP31MhC4",
+      "h1": "bKapı -site",
+      "h2": "Araç/Yaya Geçiş Sistemi",
+      "p": [
+        "bKapı -site, plaka tanıma özelliği sayesinde, kayıtlı araçlara site kapısını/bariyerini açan bir geçiş sistemidir. Bilgisayar kullanılmadan küçük boyutlardaki cihazlarda çalışma, geçiş sırasında SMS veya Telegram mesajı gönderme ve TTS teknolojisi ile bilgileri sesli olarak okuma gibi kendine has özellikleri bulunmaktadır.",
+        "Plaka tanıma özelliği dışında, bKapı -site mobil ve bKapı -multi adındaki iki mobil uygulama ile birlikte çalışabilmektedir. Akıllı telefon ve tablet üzerinde çalışabilen bu uygulamalar ile internet bağlantısı kullanılarak site kapıları görüntülenebilmekte açılabilmektedir.",
+        "bKapı -remote adında sisteme entegre bir web uygulaması bulunmaktadır. Bu uygulama sayesinde site sakinlerine özel bağlantılar oluşturulabilmektedir. Bu bağlantılar kullanılarak, site sakinleri kendi plaka ve uygulama anahtarlarını sisteme girebilmektedir. Ayrıca; site yöneticileri bu uygulama ile internet tarayıcısı üzerinden giriş çıkış kayıtlarını görüntüleyebilmekte ve tüm site sakinlerine ait araç plakalarını ve uygulama anahtarlarını görüntüleyebilip, düzenleyebilmektedirler."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-site/1.webp",
+          "li": [
+            "IP kamera üzerinden plaka tanıma",
+            "Kayıtlı araca otomatik kapı açma",
+            "Geçişlerin, resimleriyle birlikte kayıtlarını tutma",
+            "Uygulama ile uzaktan giriş, çıkış ve yaya kapılarını görüntüleme ve açma",
+            "Araç geçişi sırasında Telegram üzerinden mesaj ve resim gönderme, SMS gönderme",
+            "Yasaklı araç tespit edilmesi halinde yöneticilere SMS gönderme",
+            "Geçiş sırasında araç bilgilerinin gösterilmesi ve TTS teknolojisi ile sesli olarak okunması",
+            "Kamera görüntülerinin canlı olarak gösterilmesi"
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKapi-site/2.webp",
+          "li": [
+            "WIFI üzerinden kablosuz iletişim",
+            "Klavye/mouse ile kullanım imkanı",
+            "Uzak masaüstü ile uzaktan erişim imkanı",
+            "USB bellek veya uzak masaüstü bağlantısı ile geçiş sırasında çekilmiş resimleri alabilme",
+            "Bir yöne birden fazla kamera atayabilme",
+            "Bilgisayar kullanılmadan, küçük boyutlardaki bir cihaz üzerinde çalışma",
+            "Monitör ile çalışabilme"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-site/3.webp",
+          "li": [
+            "4 çekirdek 2.4GHz 64 bit işlemci",
+            "4/8 GB RAM",
+            "256 GB depolama alanı",
+            "2 adet 4K monitör desteği",
+            "2.4/5 Ghz WIFI",
+            "Gigabit ethernet portu",
+            "2 adet USB 2.0 ve 2 adet USB 3.0 portu",
+            "Bluetooth 5.0/BLE",
+            "5V/5ADC USB-C",
+            "RTC Saat"
+          ]
+        },
+        {
+          "background": false,
+          "singleImage": true,
+          "imageUrl": "assets/products/bKapi-site/4.webp"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "videoUrl": "https://www.youtube.com/embed/6wSwp_zqaq0?si=DVAq6PqJvP31MhC4",
+      "h1": "bKapi-site",
+      "h2": "Vehicle/Pedestrian Access System",
+      "p": [
+        "bKapı -site is an access control system that opens the gate/barrier for registered vehicles using license plate recognition technology. It has unique features such as the ability to operate on small-sized devices without the need for a computer, sending SMS or Telegram messages during entry, and reading information aloud using TTS (Text-to-Speech) technology.",
+        "In addition to the license plate recognition feature, bKapı -site can work in conjunction with two mobile applications called bKapı -site mobil and bKapı -multi. These applications, which can run on smartphones and tablets, allow users to view and open site gates using an internet connection.",
+        "There is also an integrated web application called bKapı -remote. This application enables the creation of special links for site residents. Through these links, residents can enter their license plate numbers and application keys into the system. Additionally, site administrators can use this application to view entry and exit logs through a web browser, as well as view and edit vehicle license plates and application keys for all site residents."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-site/1.webp",
+          "li": [
+            "License plate recognition via IP camera",
+            "Automatic gate opening for registered vehicles",
+            "Keeping records of passages along with images",
+            "Remote viewing and opening of entrance, exit, and pedestrian gates via the application",
+            "Sending messages and images via Telegram during vehicle passage, sending SMS",
+            "Sending SMS to administrators when a banned vehicle is detected",
+            "Displaying vehicle information and reading it aloud using TTS technology during passage",
+            "Live display of camera footage"
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKapi-site/2.webp",
+          "li": [
+            "Wireless communication via WIFI",
+            "Ability to use with keyboard/mouse",
+            "Remote access via remote desktop",
+            "Ability to retrieve images taken during passage via USB flash drive or remote desktop connection",
+            "Ability to assign multiple cameras to one direction",
+            "Operation on a small-sized device without the need for a computer",
+            "Ability to work with a monitor"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-site/3.webp",
+          "li": [
+            "Quad-core 2.4GHz 64-bit processor",
+            "4/8 GB RAM",
+            "256 GB storage",
+            "Support for 2 4K monitors",
+            "2.4/5 GHz WIFI",
+            "Gigabit ethernet port",
+            "2 USB 2.0 and 2 USB 3.0 ports",
+            "Bluetooth 5.0/BLE",
+            "5V/5ADC USB-C",
+            "RTC Clock"
+          ]
+        },
+        {
+          "background": false,
+          "singleImage": true,
+          "imageUrl": "assets/products/bKapi-site/4.webp"
+        }
+      ]
+    }
+  ]
+}

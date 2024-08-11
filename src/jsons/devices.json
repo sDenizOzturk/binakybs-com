@@ -1,82 +1,166 @@
-[
-  {
-    "id": "HomeLayoutA-1",
-    "imageUrl": "assets/homePage/bKapi-site-bg.webp",
-    "h1": "bKapı -site",
-    "h2": "Araç/Yaya Geçiş Sistemi",
-    "h3": "Plaka Tanıma ile<br/>Mobil Uygulama Bir Arada",
-    "button": {
-      "text": "Detaylar",
-      "target": "/urunler/bkapi-site"
-    }
-  },
-  {
-    "id": "HomeLayoutB-1",
-    "imageUrl": "assets/homePage/bOkul.webp",
-    "h1": "bOkul",
-    "h2": "Veli Anons Sistemi",
-    "h3": "",
-    "p": [
-      "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar.",
-      "Öğretmenin telefonuna mesaj gönderilirek anons yapılır, böylece diğer sınıfların dersleri bölünmez.",
-      "Mesaj ile birlikte anons sırasındaki kamera görüntüsü, velinin ve öğrencinin resimleri gönderilir."
-    ],
-    "button": {
-      "text": "Detaylar",
-      "target": "/urunler/bokul"
+{
+  "tr": [
+    {
+      "id": "HomeLayoutA-1",
+      "imageUrl": "assets/homePage/bKapi-site-bg.webp",
+      "h1": "bKapı -site",
+      "h2": "Araç/Yaya Geçiş Sistemi",
+      "h3": "Plaka Tanıma ile<br/>Mobil Uygulama Bir Arada",
+      "button": {
+        "text": "Detaylar",
+        "target": "/urunler/bkapi-site"
+      }
     },
-    "leftWidth": "50",
-    "rightWidth": "50"
-  },
-  {
-    "id": "HomeLayoutA-2",
-    "imageUrl": "assets/homePage/bDiafon-bg.webp",
-    "h1": "bDiafon",
-    "h2": "GSM Tabanlı Diafon Cihazı",
-    "h3": "15 Dakika Kurulumu Yapılabilen<br/>10-20 Kat Daha Az Maliyetli<br/>Benzersiz Bir Diafon",
-    "button": {
-      "text": "Detaylar",
-      "target": "/urunler/bdiafon"
-    }
-  },
-  {
-    "id": "HomeLayoutC-1",
-    "imageWidth": "75%",
-    "leftObject": {
-      "imageUrl": "assets/homePage/bKapi-GSM.webp",
-      "h1": "bKapi -GSM",
-      "h2": "GSM Tabanlı Kapı Açma Cihazı",
-      "h3": "Web Arayüzü ile Kullanım<br/>1000 Adet Numara Kapasitesi<br/>Son 250 Geçiş Kaydı",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/bkapi-gsm"
-        }
-      ]
+    {
+      "id": "HomeLayoutB-1",
+      "imageUrl": "assets/homePage/bOkul.webp",
+      "h1": "bOkul",
+      "h2": "Veli Anons Sistemi",
+      "h3": "",
+      "p": [
+        "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar.",
+        "Öğretmenin telefonuna mesaj gönderilirek anons yapılır, böylece diğer sınıfların dersleri bölünmez.",
+        "Mesaj ile birlikte anons sırasındaki kamera görüntüsü, velinin ve öğrencinin resimleri gönderilir."
+      ],
+      "button": {
+        "text": "Detaylar",
+        "target": "/urunler/bokul"
+      },
+      "leftWidth": "50",
+      "rightWidth": "50"
     },
-    "centerObject": {
-      "imageUrl": "assets/homePage/bAdim.webp",
-      "h1": "bAdım",
-      "h2": "Akıllı Basamak Aydınlatma Cihazı",
-      "h3": "Web Arayüzü ile Kullanım<br/>Gerçek Adım Takibi Özelliği<br/>Mesafe Sensörü ile Kullanım",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/badim"
-        }
-      ]
+    {
+      "id": "HomeLayoutA-2",
+      "imageUrl": "assets/homePage/bDiafon-bg.webp",
+      "h1": "bDiafon",
+      "h2": "GSM Tabanlı Diafon Cihazı",
+      "h3": "15 Dakika Kurulumu Yapılabilen<br/>10-20 Kat Daha Az Maliyetli<br/>Benzersiz Bir Diafon",
+      "button": {
+        "text": "Detaylar",
+        "target": "/urunler/bdiafon"
+      }
     },
-    "rightObject": {
-      "imageUrl": "assets/homePage/bPersonel.webp",
-      "h1": "bPersonel",
-      "h2": "Gelişmiş Personel Takip Sistemi",
-      "h3": "Yüz Tanıma ve RFID Kart ile Kullanım<br/>Yenilikçi MMS/EMMS Sistemi<br/>Açık ve Kapalı Sistem Seçenekleri",
-      "buttons": [
-        {
-          "text": "Detaylar",
-          "target": "/urunler/bpersonel"
-        }
-      ]
+    {
+      "id": "HomeLayoutC-1",
+      "imageWidth": "75%",
+      "leftObject": {
+        "imageUrl": "assets/homePage/bKapi-GSM.webp",
+        "h1": "bKapi -GSM",
+        "h2": "GSM Tabanlı Kapı Açma Cihazı",
+        "h3": "Web Arayüzü ile Kullanım<br/>1000 Adet Numara Kapasitesi<br/>Son 250 Geçiş Kaydı",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/bkapi-gsm"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/homePage/bAdim.webp",
+        "h1": "bAdım",
+        "h2": "Akıllı Basamak Aydınlatma Cihazı",
+        "h3": "Web Arayüzü ile Kullanım<br/>Gerçek Adım Takibi Özelliği<br/>Mesafe Sensörü ile Kullanım",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/badim"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/homePage/bPersonel.webp",
+        "h1": "bPersonel",
+        "h2": "Gelişmiş Personel Takip Sistemi",
+        "h3": "Yüz Tanıma ve RFID Kart ile Kullanım<br/>Yenilikçi MMS/EMMS Sistemi<br/>Açık ve Kapalı Sistem Seçenekleri",
+        "buttons": [
+          {
+            "text": "Detaylar",
+            "target": "/urunler/bpersonel"
+          }
+        ]
+      }
     }
-  }
-]
+  ],
+  "en": [
+    {
+      "id": "HomeLayoutA-1",
+      "imageUrl": "assets/homePage/bKapi-site-bg.webp",
+      "h1": "bKapı -site",
+      "h2": "Vehicle/Pedestrian Passage System",
+      "h3": "License Plate Recognition<br/>Combined with Mobile Application",
+      "button": {
+        "text": "Details",
+        "target": "/urunler/bkapi-site"
+      }
+    },
+    {
+      "id": "HomeLayoutB-1",
+      "imageUrl": "assets/homePage/bOkul.webp",
+      "h1": "bOkul",
+      "h2": "Parent Announcement System",
+      "h3": "",
+      "p": [
+        "Allows parents coming to the school to announce their arrival via a mobile app.",
+        "Announcements are made by sending a message to the teacher's phone, thus avoiding interruptions to other classes.",
+        "Along with the message, the camera footage during the announcement, as well as photos of the parent and student, are sent."
+      ],
+      "button": {
+        "text": "Details",
+        "target": "/urunler/bokul"
+      },
+      "leftWidth": "50",
+      "rightWidth": "50"
+    },
+    {
+      "id": "HomeLayoutA-2",
+      "imageUrl": "assets/homePage/bDiafon-bg.webp",
+      "h1": "bDiafon",
+      "h2": "GSM-Based Intercom Device",
+      "h3": "Unique Intercom<br/>Setup in 15 Minutes<br/>10-20 Times Less Cost",
+      "button": {
+        "text": "Details",
+        "target": "/urunler/bdiafon"
+      }
+    },
+    {
+      "id": "HomeLayoutC-1",
+      "imageWidth": "75%",
+      "leftObject": {
+        "imageUrl": "assets/homePage/bKapi-GSM.webp",
+        "h1": "bKapi -GSM",
+        "h2": "GSM-Based Door Opening Device",
+        "h3": "Usage via Web Interface<br/>1000 Number Capacity<br/>Last 250 Access Records",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/bkapi-gsm"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/homePage/bAdim.webp",
+        "h1": "bAdım",
+        "h2": "Smart Step Lighting Device",
+        "h3": "Usage via Web Interface<br/>Real Step Tracking Feature<br/>Usage with Distance Sensor",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/badim"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/homePage/bPersonel.webp",
+        "h1": "bPersonel",
+        "h2": "Advanced Personnel Tracking System",
+        "h3": "Usage with Facial Recognition and RFID Card<br/>Innovative MMS/EMMS System<br/>Open and Closed System Options",
+        "buttons": [
+          {
+            "text": "Details",
+            "target": "/urunler/bpersonel"
+          }
+        ]
+      }
+    }
+  ]
+}

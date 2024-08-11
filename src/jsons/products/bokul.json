@@ -1,32 +1,66 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bOkul/0.webp",
-    "h1": "bOkul",
-    "h2": "Veli Anons Sistemi",
-    "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bOkul/1.webp",
-        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bOkul/2.webp",
-        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
-      },
-      {
-        "imageOnLeft": true,
-        "background": false,
-        "imageUrl": "assets/products/bOkul/3.webp",
-        "p": ["<b><i>Ürün geliştirilme aşamasındadır.</i></b>"]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bOkul/0.webp",
+      "h1": "bOkul",
+      "h2": "Veli Anons Sistemi",
+      "p": [
+        "Öğrenci teslim almak için okula gelen velilerin, mobil uygulama ile anons yapabilmelerini sağlar. Öğretmenin telefonuna mesaj gönderilirek anons yapılır, böylece diğer sınıfların dersleri bölünmez. Mesaj ile birlikte anons sırasındaki kamera görüntüsü, velinin ve öğrencinin resimleri gönderilir.",
+        "<b><i>Ürün geliştirilme aşamasındadır.</i></b>"
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "singleImage": true,
+          "background": true,
+          "imageUrl": "assets/products/bOkul/1.webp"
+        },
+        {
+          "singleImage": true,
+          "background": false,
+          "imageUrl": "assets/products/bOkul/2.webp"
+        },
+        {
+          "singleImage": true,
+          "background": true,
+          "imageUrl": "assets/products/bOkul/3.webp"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bOkul/0.webp",
+      "h1": "bOkul",
+      "h2": "Parent Announcement System",
+      "p": [
+        "Allows parents coming to the school to announce their arrival via a mobile app. Announcements are made by sending a message to the teacher's phone, thus avoiding interruptions to other classes. Along with the message, the camera footage during the announcement, as well as photos of the parent and student, are sent.",
+        "<b><i>The product is in the development stage.</i></b>"
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "singleImage": true,
+          "background": true,
+          "imageUrl": "assets/products/bOkul/1.webp"
+        },
+        {
+          "singleImage": true,
+          "background": false,
+          "imageUrl": "assets/products/bOkul/2.webp"
+        },
+        {
+          "singleImage": true,
+          "background": true,
+          "imageUrl": "assets/products/bOkul/3.webp"
+        }
+      ]
+    }
+  ]
+}

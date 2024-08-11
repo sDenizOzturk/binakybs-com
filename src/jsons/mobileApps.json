@@ -1,53 +1,108 @@
-[
-  {
-    "imageWidth": "40%",
-    "leftObject": {
-      "imageUrl": "assets/mobileApps/bKapi_site_logo.webp",
-      "h1": "bKapi -site mobil",
-      "h2": "",
-      "h3": "Mağaza Sayfaları:",
-      "linkImages": [
-        {
-          "imageUrl": "assets/logo_appstore.webp",
-          "targetUrl": "https://apps.apple.com/tr/app/bkapi-site-mobil/id1576908443"
-        },
-        {
-          "imageUrl": "assets/logo_playstore.webp",
-          "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.site"
-        }
-      ]
-    },
-    "centerObject": {
-      "imageUrl": "assets/mobileApps/bOkul_logo.webp",
-      "h1": "bOkul",
-      "h2": "",
-      "h3": "Mağaza Sayfaları:",
-      "linkImages": [
-        {
-          "imageUrl": "assets/logo_appstore.webp",
-          "targetUrl": "https://apps.apple.com/tr/app/bokul/id6448637238"
-        },
-        {
-          "imageUrl": "assets/logo_playstore.webp",
-          "targetUrl": "https://play.google.com/store/apps/details?id=binak.bOkul.multi"
-        }
-      ]
-    },
-    "rightObject": {
-      "imageUrl": "assets/mobileApps/bKapi_multi_logo.webp",
-      "h1": "bKapı -multi",
-      "h2": "",
-      "h3": "Mağaza Sayfaları:",
-      "linkImages": [
-        {
-          "imageUrl": "assets/logo_appstore.webp",
-          "targetUrl": "https://apps.apple.com/tr/app/bkapi-multi/id6444596145"
-        },
-        {
-          "imageUrl": "assets/logo_playstore.webp",
-          "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.multi"
-        }
-      ]
+{
+  "tr": [
+    {
+      "imageWidth": "40%",
+      "leftObject": {
+        "imageUrl": "assets/mobileApps/bKapi_site_logo.webp",
+        "h1": "bKapi -site mobil",
+        "h2": "",
+        "h3": "Mağaza Sayfaları:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bkapi-site-mobil/id1576908443"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.site"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/mobileApps/bOkul_logo.webp",
+        "h1": "bOkul",
+        "h2": "",
+        "h3": "Mağaza Sayfaları:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bokul/id6448637238"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bOkul.multi"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/mobileApps/bKapi_multi_logo.webp",
+        "h1": "bKapı -multi",
+        "h2": "",
+        "h3": "Mağaza Sayfaları:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bkapi-multi/id6444596145"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.multi"
+          }
+        ]
+      }
     }
-  }
-]
+  ],
+  "en": [
+    {
+      "imageWidth": "40%",
+      "leftObject": {
+        "imageUrl": "assets/mobileApps/bKapi_site_logo.webp",
+        "h1": "bKapi -site mobile",
+        "h2": "",
+        "h3": "Store Pages:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bkapi-site-mobil/id1576908443"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.site"
+          }
+        ]
+      },
+      "centerObject": {
+        "imageUrl": "assets/mobileApps/bOkul_logo.webp",
+        "h1": "bOkul",
+        "h2": "",
+        "h3": "Store Pages:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bokul/id6448637238"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bOkul.multi"
+          }
+        ]
+      },
+      "rightObject": {
+        "imageUrl": "assets/mobileApps/bKapi_multi_logo.webp",
+        "h1": "bKapı -multi",
+        "h2": "",
+        "h3": "Store Pages:",
+        "linkImages": [
+          {
+            "imageUrl": "assets/logo_appstore.webp",
+            "targetUrl": "https://apps.apple.com/tr/app/bkapi-multi/id6444596145"
+          },
+          {
+            "imageUrl": "assets/logo_playstore.webp",
+            "targetUrl": "https://play.google.com/store/apps/details?id=binak.bKapi.multi"
+          }
+        ]
+      }
+    }
+  ]
+}

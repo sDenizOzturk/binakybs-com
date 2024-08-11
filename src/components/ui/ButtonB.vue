@@ -30,14 +30,14 @@ export default {
   cursor: pointer;
   display: inline-block;
   font-family: var(--font-family);
-  font-size: 2.25vmin;
+  font-size: 1.125rem;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 1em;
+  line-height: 0.5rem;
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 2rem 1.1rem;
   position: relative;
   text-align: center;
   text-decoration: none;

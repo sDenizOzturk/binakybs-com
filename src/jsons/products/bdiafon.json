@@ -1,43 +1,88 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bDiafon/0.webp",
-    "h1": "bDiafon",
-    "h2": "GSM Tabanlı Diafon Cihazı",
-    "p": [
-      "bDiafon, GSM tabanlı bir diafon sistemidir. GSM teknolojisi ile çalıştığı için, diğer diafon sistemlerindeki gibi her daireye birer adet cihaz koyulması ve her daireye kablo çekilmesi gibi durumlar söz konusu bile değildir, daire/ev sayısından bağımsız olarak yalnızca iki adet cihazdan oluşur. Cihaz üzerine takılan sim kart kullanılarak, doğrudan cep telefonları aranır ve gelen aramalar işlenir."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bDiafon/1.webp",
-        "li": [
-          "Sisteme 1000 adet numara kaydedilebilir.",
-          "İki yönlü sesli görüşme yapılabilir.",
-          "Arama sırasında numaratör kullanılarak 12 adede kadar kapı/bariyer açılabilir.",
-          "Son 250 arama kaydı cihazlar üzerinde tutulur.",
-          "WIFI özelliği sayesinde numara ekleme, kayıtlara bakma gibi işlemler web arayüzü üzerinden yapılır."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bDiafon/2.webp",
-        "li": [
-          "Tek çekirdek 240MHz işlemci",
-          "320 KB RAM",
-          "2.5 GHz WIFI",
-          "850/900/1800/1900MHz 2G GSM",
-          "2x16 LCD ekran",
-          "2x3W dahili hoparlör",
-          "Dahili mikrofon",
-          "5V2A DC"
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bDiafon/0.webp",
+      "h1": "bDiafon",
+      "h2": "GSM Tabanlı Diafon Cihazı",
+      "p": [
+        "bDiafon, GSM tabanlı bir diafon sistemidir. GSM teknolojisi ile çalıştığı için, diğer diafon sistemlerindeki gibi her daireye birer adet cihaz koyulması ve her daireye kablo çekilmesi gibi durumlar söz konusu bile değildir, daire/ev sayısından bağımsız olarak yalnızca iki adet cihazdan oluşur. Cihaz üzerine takılan sim kart kullanılarak, doğrudan cep telefonları aranır ve gelen aramalar işlenir."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bDiafon/1.webp",
+          "li": [
+            "Sisteme 1000 adet numara kaydedilebilir.",
+            "İki yönlü sesli görüşme yapılabilir.",
+            "Arama sırasında numaratör kullanılarak 12 adede kadar kapı/bariyer açılabilir.",
+            "Son 250 arama kaydı cihazlar üzerinde tutulur.",
+            "WIFI özelliği sayesinde numara ekleme, kayıtlara bakma gibi işlemler web arayüzü üzerinden yapılır."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bDiafon/2.webp",
+          "li": [
+            "Tek çekirdek 240MHz işlemci",
+            "320 KB RAM",
+            "2.5 GHz WIFI",
+            "850/900/1800/1900MHz 2G GSM",
+            "2x16 LCD ekran",
+            "2x3W dahili hoparlör",
+            "Dahili mikrofon",
+            "5V2A DC"
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bDiafon/0.webp",
+      "h1": "bDiafon",
+      "h2": "GSM-Based Intercom Device",
+      "p": [
+        "bDiafon is a GSM-based intercom system. Since it operates with GSM technology, there is no need to install a device in each apartment or house and run cables as in other intercom systems. It consists of only two devices, regardless of the number of apartments/houses. By using the SIM card inserted in the device, mobile phones are called directly, and incoming calls are processed."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bDiafon/1.webp",
+          "li": [
+            "The system can store up to 1000 numbers.",
+            "Two-way voice communication is possible.",
+            "Up to 12 doors/barriers can be opened using the keypad during a call.",
+            "The last 250 call records are stored on the devices.",
+            "With the WIFI feature, operations such as adding numbers and viewing records can be done via the web interface."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bDiafon/2.webp",
+          "li": [
+            "Single-core 240MHz processor",
+            "320 KB RAM",
+            "2.5 GHz WIFI",
+            "850/900/1800/1900MHz 2G GSM",
+            "2x16 LCD screen",
+            "2x3W internal speaker",
+            "Internal microphone",
+            "5V2A DC"
+          ]
+        }
+      ]
+    }
+  ]
+}

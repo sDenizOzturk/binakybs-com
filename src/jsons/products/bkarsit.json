@@ -1,75 +1,152 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bKarsit/0.webp",
-    "h1": "bKarşıt",
-    "h2": "Karşıt İnceleme Tutanağı Hazırlama Uygulaması",
-    "p": [
-      "bKarşıt, YMM’ler, denetim şirketleri ve bağımsız denetçilerin çalışmalarını kolaylaştırmak amacıyla geliştirdiğimiz, karşıt inceleme tutanağı dispozisyonu sunan bir uygulamadır. Geliştirdiğimiz arayüz kullanılarak, İndirilecek/Yüklenilen KDV Listesi veya haricen Excel ortamında hazırlanmış listelerin uygulamaya yüklenmesiyle hızlı ve güvenilir biçimde karşıt inceleme tutanakları hazırlanmaktadır. Deneyimli denetçilerle yapılan çalışmalarımız sonucunda geliştirdiğimiz algoritmalar ve arayüz sayesinde programın kullanımı oldukça basittir ve Excel vb. programlar ile yapıldığı zaman saatlerce sürebilen işlemleri dakikalar içinde gerçekleştirebilmektedir."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKarsit/1.webp",
-        "li": [
-          "YMM ve denetçiler için “Karşıt İnceleme ve Teyit Tutanağı” hazırlamak için kullanılır.",
-          "Üzerinde inceleme yapılacak olan İndirilecek/Yüklenilen KDV Listesi dosyası için .xlsx, .csv ve .html dosya tipleri desteklenir.",
-          "Ana ekran üzerinde, inceleme yapılacak KDV Listesi’nin tablosu dışında bu listede bulunan firmaların çeşitli bilgilerinin gösterildiği bir tablo bulunur. Fatura seçimi her iki tablodan da aynı anda yapılabilir."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKarsit/2.webp",
-        "li": [
-          "Satıcı firmalar tablosu üzerindeki kutucuklar kullanılarak KDV yüzdesi alt sınırı değeri (varsayılan olarak yüzde 80’dir), aynı gün için sınır tutarı (varsayılan değeri 36.000,00’dir), tüm faturalar için aylık sınır tutarı (varsayılan değeri 106.000,00’dir) girilebilir. Geliştirdiğimiz algoritma ile bu sınırlar kullanılarak seçim önerilebilir veya sadece sınır tutarlarını aşan satıcı firmalar seçilebilir. Bu tutarı aşan firmaların ilgili sütunları sarı ve yeşil renklerle boyanır.",
-          "Satıcı firma, alıcı firma, YMM ve SMMM bilgileri veri tabanında tutulur, bu veriler ayarlar sekmesinden düzenlenebilir, eklenebilir veya silinebilir. Bu bilgiler daha sonraki incelemelerde kullanıcının karşısına getirilerek tutanakları yazma işlemi birkaç saniyeye kadar indirilebilir."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKarsit/3.webp",
-        "li": [
-          "Satıcı firma eğer bir YMM ile anlaşmalıysa teyit tutanağı, değilse karşıt inceleme tutanağı hazırlanır. Ayrıca satıcı firmaların bulunduğu tabloda teyit yazılacak firmaların YMM / SMMM sütunları yeşile, karşıt yazılacak firmaların YMM / SMMM sütunları sarıya boyanır.",
-          "İnceleme işlemi yapılırken karşıt inceleme veya teyit tutanağı hazırlanacak satıcı firmalar onaylanmak üzere kullanıcının karşısına getirilir.",
-          "İnceleme işlemini yaparken ilgili kutucuğun işaretlenmesi halinde Karşıt İnceleme Tutanağına kapak eklenebilir. İstenilecek belgeler kutucukları kullanarak seçilir. Yapılan kutucuk seçimleri şablonlar halinde kaydedilebilir. Aynı inceleme işlemi içinde farklı belgelerin istenildiği kapaklar oluşturulabilir."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKarsit/4.webp",
-        "li": [
-          "Tutanaklar .html dosya tipinde oluşturulur, ofis programları ve internet tarayıcılarıyla açılabilir. Sayfa boyutları dokümantasyona uygun olarak sağ kenardan 1 cm, diğer kenarlardan 2.5 cm boşluk bırakılacak şekilde ayarlanmıştır.",
-          "Her inceleme işleminden sonra ilgili firmalar hakkında çeşitli bilgilerin bulunduğu bir takip çizelgesi dosyası oluşturulur. Bu dosya tercihe göre .xlsx veya .html dosya tipinde oluşturulur.",
-          "Dosya açıldığında bir onaylama ekranı gelir, bu ekranda yüklenilen dosya içindeki bilgiler görünür. Onaylanması halinde dosya açılır ve içindeki satıcı firma bilgileri veri tabanına aktarılır."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKarsit/5.webp",
-        "li": [
-          "Ayarlar sekmesinden program ile ilgili çeşitli ayarların yapılabilmesinin dışında veri tabanında bulunan veriler içe ve dışa aktarılabilir.",
-          "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veri tabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
-          "Web tabanlı değildir. Bu nedenle internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKarsit/6.webp",
-        "li": [
-          "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
-          "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
-          "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKarsit/0.webp",
+      "h1": "bKarşıt",
+      "h2": "Karşıt İnceleme Tutanağı Hazırlama Uygulaması",
+      "p": [
+        "bKarşıt, YMM’ler, denetim şirketleri ve bağımsız denetçilerin çalışmalarını kolaylaştırmak amacıyla geliştirdiğimiz, karşıt inceleme tutanağı dispozisyonu sunan bir uygulamadır. Geliştirdiğimiz arayüz kullanılarak, İndirilecek/Yüklenilen KDV Listesi veya haricen Excel ortamında hazırlanmış listelerin uygulamaya yüklenmesiyle hızlı ve güvenilir biçimde karşıt inceleme tutanakları hazırlanmaktadır. Deneyimli denetçilerle yapılan çalışmalarımız sonucunda geliştirdiğimiz algoritmalar ve arayüz sayesinde programın kullanımı oldukça basittir ve Excel vb. programlar ile yapıldığı zaman saatlerce sürebilen işlemleri dakikalar içinde gerçekleştirebilmektedir."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/1.webp",
+          "li": [
+            "YMM ve denetçiler için “Karşıt İnceleme ve Teyit Tutanağı” hazırlamak için kullanılır.",
+            "Üzerinde inceleme yapılacak olan İndirilecek/Yüklenilen KDV Listesi dosyası için .xlsx, .csv ve .html dosya tipleri desteklenir.",
+            "Ana ekran üzerinde, inceleme yapılacak KDV Listesi’nin tablosu dışında bu listede bulunan firmaların çeşitli bilgilerinin gösterildiği bir tablo bulunur. Fatura seçimi her iki tablodan da aynı anda yapılabilir."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/2.webp",
+          "li": [
+            "Satıcı firmalar tablosu üzerindeki kutucuklar kullanılarak KDV yüzdesi alt sınırı değeri (varsayılan olarak yüzde 80’dir), aynı gün için sınır tutarı (varsayılan değeri 36.000,00’dir), tüm faturalar için aylık sınır tutarı (varsayılan değeri 106.000,00’dir) girilebilir. Geliştirdiğimiz algoritma ile bu sınırlar kullanılarak seçim önerilebilir veya sadece sınır tutarlarını aşan satıcı firmalar seçilebilir. Bu tutarı aşan firmaların ilgili sütunları sarı ve yeşil renklerle boyanır.",
+            "Satıcı firma, alıcı firma, YMM ve SMMM bilgileri veri tabanında tutulur, bu veriler ayarlar sekmesinden düzenlenebilir, eklenebilir veya silinebilir. Bu bilgiler daha sonraki incelemelerde kullanıcının karşısına getirilerek tutanakları yazma işlemi birkaç saniyeye kadar indirilebilir."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/3.webp",
+          "li": [
+            "Satıcı firma eğer bir YMM ile anlaşmalıysa teyit tutanağı, değilse karşıt inceleme tutanağı hazırlanır. Ayrıca satıcı firmaların bulunduğu tabloda teyit yazılacak firmaların YMM / SMMM sütunları yeşile, karşıt yazılacak firmaların YMM / SMMM sütunları sarıya boyanır.",
+            "İnceleme işlemi yapılırken karşıt inceleme veya teyit tutanağı hazırlanacak satıcı firmalar onaylanmak üzere kullanıcının karşısına getirilir.",
+            "İnceleme işlemini yaparken ilgili kutucuğun işaretlenmesi halinde Karşıt İnceleme Tutanağına kapak eklenebilir. İstenilecek belgeler kutucukları kullanarak seçilir. Yapılan kutucuk seçimleri şablonlar halinde kaydedilebilir. Aynı inceleme işlemi içinde farklı belgelerin istenildiği kapaklar oluşturulabilir."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/4.webp",
+          "li": [
+            "Tutanaklar .html dosya tipinde oluşturulur, ofis programları ve internet tarayıcılarıyla açılabilir. Sayfa boyutları dokümantasyona uygun olarak sağ kenardan 1 cm, diğer kenarlardan 2.5 cm boşluk bırakılacak şekilde ayarlanmıştır.",
+            "Her inceleme işleminden sonra ilgili firmalar hakkında çeşitli bilgilerin bulunduğu bir takip çizelgesi dosyası oluşturulur. Bu dosya tercihe göre .xlsx veya .html dosya tipinde oluşturulur.",
+            "Dosya açıldığında bir onaylama ekranı gelir, bu ekranda yüklenilen dosya içindeki bilgiler görünür. Onaylanması halinde dosya açılır ve içindeki satıcı firma bilgileri veri tabanına aktarılır."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/5.webp",
+          "li": [
+            "Ayarlar sekmesinden program ile ilgili çeşitli ayarların yapılabilmesinin dışında veri tabanında bulunan veriler içe ve dışa aktarılabilir.",
+            "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veri tabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
+            "Web tabanlı değildir. Bu nedenle internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/6.webp",
+          "li": [
+            "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
+            "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
+            "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKarsit/0.webp",
+      "h1": "bKarsit",
+      "h2": "Counter Examination Report Preparation Application",
+      "p": [
+        "bKarsit is an application we developed to facilitate the work of CPAs, audit firms, and independent auditors, offering a disposition for preparing counter examination reports. By using the interface we developed, counter examination reports can be prepared quickly and reliably by uploading the VAT Deduction/Charge List or lists prepared externally in Excel format to the application. Thanks to the algorithms and interface we developed in collaboration with experienced auditors, the program is very easy to use and can perform tasks that could take hours in Excel or similar programs in minutes."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/1.webp",
+          "li": [
+            "Used for preparing the 'Counter Examination and Confirmation Report' for CPAs and auditors.",
+            ".xlsx, .csv, and .html file types are supported for the VAT Deduction/Charge List file to be reviewed.",
+            "On the main screen, there is a table showing various information about the companies in the VAT List under review, in addition to the table of the VAT List. Invoice selection can be made simultaneously from both tables."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/2.webp",
+          "li": [
+            "Using the checkboxes on the seller companies table, the lower limit value for VAT percentage (default is 80%), the limit amount for the same day (default value is 36,000.00), and the monthly limit amount for all invoices (default value is 106,000.00) can be entered. Using our developed algorithm, selections can be suggested based on these limits, or only the seller companies that exceed the limit amounts can be selected. The relevant columns of the companies that exceed these amounts are colored yellow and green.",
+            "Seller company, buyer company, CPA, and SMMM information is stored in the database; these details can be edited, added, or deleted from the settings tab. These details are presented to the user in future reviews, reducing the report writing process to a few seconds."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/3.webp",
+          "li": [
+            "If the seller company is affiliated with a CPA, a confirmation report is prepared; if not, a counter examination report is prepared. Additionally, the CPA/SMMM columns of the companies to be confirmed in the table of seller companies are colored green, while the CPA/SMMM columns of the companies to be counter-examined are colored yellow.",
+            "During the review process, the seller companies for which a counter examination or confirmation report will be prepared are presented to the user for approval.",
+            "During the review process, a cover can be added to the Counter Examination Report if the relevant checkbox is marked. The documents to be requested can be selected using checkboxes. The selected checkboxes can be saved as templates. Different covers with different requested documents can be created within the same review process."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/4.webp",
+          "li": [
+            "Reports are created in .html file format and can be opened with office programs and web browsers. Page dimensions are adjusted to leave a 1 cm margin on the right side and 2.5 cm on the other sides, in accordance with documentation requirements.",
+            "After each review process, a follow-up chart file containing various information about the relevant companies is created. This file can be created in .xlsx or .html file format according to preference.",
+            "When the file is opened, an approval screen appears, where the information within the uploaded file is visible. Once approved, the file opens, and the information about the seller company is transferred to the database."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKarsit/5.webp",
+          "li": [
+            "In addition to various settings related to the program from the settings tab, the data in the database can be imported and exported.",
+            "No installation is required; when the program is run for the first time, it automatically creates its database in the 'My Documents' folder and prepares itself for use.",
+            "It is not web-based. Therefore, it works independently of the internet, and all data is stored on the computer it is used on."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKarsit/6.webp",
+          "li": [
+            "The program is developed with the Qt framework and C++ programming language.",
+            "SQLite database engine is used as the database.",
+            "It works with the MinGW compiler, so it runs on Windows 7 and later operating systems without any installation."
+          ]
+        }
+      ]
+    }
+  ]
+}

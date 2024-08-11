@@ -19,7 +19,7 @@ export default {
   name: "DevicesView",
   data() {
     return {
-      json: _json,
+      json: _json[this.$route.params.language],
     };
   },
   components: {

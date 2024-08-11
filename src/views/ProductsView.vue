@@ -16,8 +16,10 @@ export default {
   name: "ProductsView",
   created() {
     const productName = this.$route.params.productName;
+    this.language = this.$route.params.language;
+
     try {
-      this.json = require("@/jsons/products/" + productName + ".json");
+      this.json = require("@/jsons/products/" + productName + ".json")[this.$route.params.language];
     } catch {
       this.$router.push("/");
     }

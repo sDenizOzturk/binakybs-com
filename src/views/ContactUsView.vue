@@ -63,12 +63,12 @@ export default {
 }
 
 .linkImage {
-  height: 10vmin;
-  margin: 2vmin;
+  height: 5rem;
+  margin: 1rem;
 }
 p {
   color: var(--color1);
-  font-size: 3vmin;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align: right;
 }

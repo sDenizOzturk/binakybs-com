@@ -1,7 +1,7 @@
 <template>
   <Header />
   <Transition name="route">
-    <router-view />
+    <router-view :key="$route.fullPath" mode="out-in" />
   </Transition>
   <Footer />
 </template>
@@ -18,7 +18,13 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");*/
+
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"), url("./fonts/Oswald-VariableFont_wght.ttf"), format("truetype");
+}
+
 :root {
   --font-family: "Oswald", sans-serif;
   --color0: rgba(0, 0, 0, 0);
@@ -39,13 +45,25 @@ body {
   color: var(--color2);
   margin: 0;
   padding: 0;
-  font-size: 1em;
+}
+
+@media (orientation: portrait) {
+  html,
+  body {
+    font-size: 2vw;
+  }
+}
+@media (orientation: landscape) {
+  html,
+  body {
+    font-size: 1vw;
+  }
 }
 
 @media (pointer: none), (pointer: coarse) {
   @media (orientation: portrait) {
     :root {
-      font-size: 2.25vh;
+      font-size: 2vw;
     }
   }
   @media (orientation: landscape) {
@@ -74,7 +92,7 @@ img {
 }
 
 .route-leave-active {
-  transition: all 1s ease-in;
+  transition: all 0s ease-in;
 }
 
 .route-enter-to,

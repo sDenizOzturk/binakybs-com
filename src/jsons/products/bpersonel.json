@@ -1,37 +1,76 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bPersonel/0.webp",
-    "h1": "bPersonel",
-    "h2": "Gelişmiş Personel Takip Sistemi",
-    "p": [
-      "bPersonel, çok sayıda personelin çalıştığı firmalarda devam kontrolünün sağlanmasına yardımcı olmak ve muhasebe ile insan kaynakları departmanlarının zaman ve iş gücünden büyük oranda tasarruf etmelerini sağlamak amacıyla geliştirilmekte olan bir personel takip sistemidir. Sistem, giriş çıkış işlemleri için aynı anda rfid kart okuma ve yüz tanıma teknolojilerini içerecek olup, bu işlemler sırasında çekilen fotoğraflar kurulduğu firmada saklanacaktır. Özenle hazırladığımız yenilikçi algoritmaları ile çeşitli hesaplamalar ve raporlamalar hızlı ve etkili şekilde yapılabilecektir. Ürün iki farklı versiyonuyla piyasaya sürülecektir:",
-      "<b>MMS/EMMS Sistemi</b>",
-      "Ürünün geliştirilme sürecinde MMS/EMMS adında yenilikçi bir sistem oluşturulmuştur. MMS (Mesai Mola Süresi) personelin mesai süresi içinde kullandığı mola süresi, EMMS (Ek Mesai Mola Süresi) ise mesaisini tamamladıktan itibaren her bir saatte bir kullandığı mola süresidir. Mola süresi mesainin tamamlanmaması durumunda doğrusal olarak düşer. Örneğin; MMS değeri 50 dakika olarak girilmiş bir personel gün içinde yalnızca 50 dakika içerde kalması durumunda sisteme hiç çalışmayıp 50 dakika mola yapmış olarak girilmez, (Haftalık çalışma süresi 45 saat olarak girilmiş kabul edersek) 45 dakika çalışıp 5 dakika mola yapmış olarak girilir. Bu kişinin 50 dakika mola süresine ulaşabilmesi için o gün 450 dakika (7,5 saat) içerde kalması gerekmektedir.",
-      "Bu değerler personellerin içinde bulunduğu gruplara atanarak toplu işlemler yapılabilir veya personellere özel olarak atanabilir. Bu sistem ek mesai hesaplama işlemini büyük oranda hızlandırmakta ve basitleştirmektedir. Arayüz ile haftalara/günlere özel olarak farklı değerler, personel bazlı veya grup bazlı (topluca) olarak atanabilir ve ek mesai süreleri dinamik olarak hesaplanır."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bPersonel/1.webp",
-        "li": [
-          "4 çekirdek 1.2GHz 64 bit işlemci",
-          "800×480 dokunmatik ekran",
-          "1 GB RAM",
-          "32 GB depolama alanı",
-          "2.4/5 Ghz WIFI",
-          "4 adet USB 2.0 portu",
-          "10/100 ethernet portu",
-          "4 Adet 3W dahili hoparlör",
-          "5 MP kamera",
-          "Bluetooth 5.0",
-          "5V/2.5A DC güç girişi"
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bPersonel/0.webp",
+      "h1": "bPersonel",
+      "h2": "Gelişmiş Personel Takip Sistemi",
+      "p": [
+        "bPersonel, çok sayıda personelin çalıştığı firmalarda devam kontrolünün sağlanmasına yardımcı olmak ve muhasebe ile insan kaynakları departmanlarının zaman ve iş gücünden büyük oranda tasarruf etmelerini sağlamak amacıyla geliştirilmekte olan bir personel takip sistemidir. Sistem, giriş çıkış işlemleri için aynı anda rfid kart okuma ve yüz tanıma teknolojilerini içerecek olup, bu işlemler sırasında çekilen fotoğraflar kurulduğu firmada saklanacaktır. Özenle hazırladığımız yenilikçi algoritmaları ile çeşitli hesaplamalar ve raporlamalar hızlı ve etkili şekilde yapılabilecektir. Ürün iki farklı versiyonuyla piyasaya sürülecektir:",
+        "<b>MMS/EMMS Sistemi</b>",
+        "Ürünün geliştirilme sürecinde MMS/EMMS adında yenilikçi bir sistem oluşturulmuştur. MMS (Mesai Mola Süresi) personelin mesai süresi içinde kullandığı mola süresi, EMMS (Ek Mesai Mola Süresi) ise mesaisini tamamladıktan itibaren her bir saatte bir kullandığı mola süresidir. Mola süresi mesainin tamamlanmaması durumunda doğrusal olarak düşer. Örneğin; MMS değeri 50 dakika olarak girilmiş bir personel gün içinde yalnızca 50 dakika içerde kalması durumunda sisteme hiç çalışmayıp 50 dakika mola yapmış olarak girilmez, (Haftalık çalışma süresi 45 saat olarak girilmiş kabul edersek) 45 dakika çalışıp 5 dakika mola yapmış olarak girilir. Bu kişinin 50 dakika mola süresine ulaşabilmesi için o gün 450 dakika (7,5 saat) içerde kalması gerekmektedir.",
+        "Bu değerler personellerin içinde bulunduğu gruplara atanarak toplu işlemler yapılabilir veya personellere özel olarak atanabilir. Bu sistem ek mesai hesaplama işlemini büyük oranda hızlandırmakta ve basitleştirmektedir. Arayüz ile haftalara/günlere özel olarak farklı değerler, personel bazlı veya grup bazlı (topluca) olarak atanabilir ve ek mesai süreleri dinamik olarak hesaplanır."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bPersonel/1.webp",
+          "li": [
+            "4 çekirdek 1.2GHz 64 bit işlemci",
+            "800×480 dokunmatik ekran",
+            "1 GB RAM",
+            "32 GB depolama alanı",
+            "2.4/5 Ghz WIFI",
+            "4 adet USB 2.0 portu",
+            "10/100 ethernet portu",
+            "4 Adet 3W dahili hoparlör",
+            "5 MP kamera",
+            "Bluetooth 5.0",
+            "5V/2.5A DC güç girişi"
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bPersonel/0.webp",
+      "h1": "bPersonel",
+      "h2": "Advanced Personnel Tracking System",
+      "p": [
+        "bPersonel is a personnel tracking system being developed to assist firms with a large number of employees in monitoring attendance and to significantly save time and effort for accounting and human resources departments. The system will incorporate both RFID card reading and facial recognition technologies for entry and exit procedures, and photos taken during these processes will be stored at the company where it is installed. With our carefully developed innovative algorithms, various calculations and reports can be performed quickly and effectively. The product will be released in two different versions:",
+        "<b>MMS/EMMS System</b>",
+        "During the development process, an innovative system called MMS/EMMS has been created. MMS (Work Break Time) refers to the break time used by employees during their working hours, while EMMS (Overtime Break Time) refers to the break time used per hour after completing the regular working hours. The break time decreases linearly if the work is not completed. For example, if a person has an MMS value of 50 minutes, they will not be recorded as having worked if they only stay inside for 50 minutes. Instead, if the weekly working time is considered as 45 hours, they will be recorded as having worked 45 minutes and taken a 5-minute break. To reach the 50-minute break time, the person must stay inside for 450 minutes (7.5 hours) that day.",
+        "These values can be assigned to groups of employees for bulk processing or assigned individually to employees. This system greatly speeds up and simplifies the overtime calculation process. Different values can be assigned for weeks/days specifically through the interface, either per employee or group-wise, and overtime durations are calculated dynamically."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bPersonel/1.webp",
+          "li": [
+            "4-core 1.2GHz 64-bit processor",
+            "800×480 touchscreen",
+            "1 GB RAM",
+            "32 GB storage",
+            "2.4/5 GHz WIFI",
+            "4 USB 2.0 ports",
+            "10/100 ethernet port",
+            "4 built-in 3W speakers",
+            "5 MP camera",
+            "Bluetooth 5.0",
+            "5V/2.5A DC power input"
+          ]
+        }
+      ]
+    }
+  ]
+}

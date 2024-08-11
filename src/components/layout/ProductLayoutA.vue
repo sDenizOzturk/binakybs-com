@@ -16,7 +16,7 @@
       ></iframe>
     </div>
 
-    <div class="image" v-if="object.imageUrl"><img :src="imageUrl" alt="" />""</div>
+    <div class="image" v-if="object.imageUrl"><img :src="imageUrl" alt="" /></div>
 
     <div class="text-wrapper">
       <p v-for="item in object.p" :key="item" v-html="item"></p>
@@ -76,11 +76,11 @@ h2 {
   text-align: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 h2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 .video-container {
@@ -93,6 +93,7 @@ h2 {
 }
 p {
   margin-top: 0;
+  font-size: 1rem;
 }
 
 @media screen and (orientation: portrait) {
@@ -103,6 +104,22 @@ p {
   .video-container,
   .text-wrapper {
     width: 80%;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) {
+  @media (orientation: portrait) {
+    h1 {
+      font-size: 4rem;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 2rem;
+    }
   }
 }
 </style>

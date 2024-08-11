@@ -45,34 +45,33 @@ export default {
   justify-content: right;
   text-align: right;
   position: relative;
-  top: 20vh;
+  top: 80%;
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
 }
 h1,
 h2,
 h3 {
   color: var(--color1);
   margin: 0;
-  margin-right: 2vmin;
+  margin-right: 2rem;
 }
 h1 {
-  font-size: 12vmin;
+  font-size: 6rem;
   font-weight: 500;
 }
 h2 {
-  font-size: 4.5vmin;
+  font-size: 2.25rem;
   font-weight: 400;
 }
 h3 {
-  font-size: 3.5vmin;
-  margin-top: 3vmin;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
   font-weight: 300;
 }
 @media screen and (orientation: portrait) {
   .layout {
     height: 60vmin;
-  }
-  .text-wrapper {
-    top: 0;
   }
 }
 </style>

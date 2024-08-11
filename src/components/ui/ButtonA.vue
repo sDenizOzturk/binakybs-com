@@ -15,7 +15,7 @@ export default {
 <style scoped>
 .button {
   --b: 1px;
-  --s: 0em;
+  --s: 0rem;
 
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color1);
@@ -25,9 +25,9 @@ export default {
     calc(100% - var(--b) - 2 * var(--_p));
   transition: 0.3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
-  outline-offset: 0.6em;
+  outline-offset: 0.3rem;
   font-family: var(--font-family);
-  font-size: 4vmin;
+  font-size: 2rem;
   border: 0;
   user-select: none;
   -webkit-user-select: none;
@@ -38,7 +38,7 @@ export default {
 .button:focus-visible {
   --_p: 0px;
   outline-color: var(--color1);
-  outline-offset: 0.05em;
+  outline-offset: 0.025rem;
 }
 
 .button:active {

@@ -1,54 +1,110 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bKapi-GSM/0.webp",
-    "h1": "bKapı -GSM",
-    "h2": "GSM Tabanlı Kapı/Bariyer Açma Cihazı",
-    "p": [
-      "bKapı -GSM, siteler ve iş yerleri için geliştirdiğimiz, GSM tabanlı bir kapı/bariyer açma cihazıdır. Cihaza takılı sim karta ait numara arandığında, arayan numara kayıtlı ise kapı açılır ve arama cihaz tarafından meşgule atılır. Numara ekleme işlemi, SMS göndererek yapılan diğer cihazların aksine WIFI üzerinden telefon, bilgisayar veya tablet ile cihaza bağlanılarak yapılır. Böylece, SMS gönderme maliyeti bulunmaz, cihaza takılı hat gelen aramalara açık olduğu sürece sorunsuzca kullanılabilir.",
-      "Cihaza 1000 adet numara “adı soyadı-kapı numarası-telefon numarası” bilgileriyle beraber eklenebilir, arayüz üzerinde tüm bu bilgilere ulaşılabilir. Yüklenen 1000 numara dışa aktarma özelliği ile yedeklenebilir ve daha sonra içe aktarma özelliği ile cihaza yüklenebilir. Son 250 kayıt “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutulur. Saat, internet bağlantısı üzerinden (NTP) alınır, internet bağlantısı olmayan durumlarda tarih/saat yerine cihazın son açılışından itibaren geçen süre gösterilir. Cihaz üzerindeki rölenin tetiklenme süresi ayarlanabilir, varsayılan değer 1000 milisaniyedir.",
-      "Cihaz arayüzüne internet tarayıcıları ile bağlanılır, böylece herhangi bir uygulama kurulması gerekmez. Cihaz, AP modunda çalışabildiği için cihaza WIFI ile doğrudan bağlanabilir. Sabit IP’ye sahip internet bağlantısı bulunan bir ağa bağlanılması halinde, cihaz arayüzüne internet bağlantısı olan herhangi bir yerden ulaşılabilir."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKapi-GSM/1.webp",
-        "li": [
-          "GSM üzerinden arama ile kapı/bariyer açma",
-          "SMS gönderme maliyeti olmadan sim kart ile çalışma",
-          "Cep telefonu, tablet veya bilgisayar ile WIFI üzerinden cihaz arayüzüne erişim",
-          "“Adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle 1000 numara ekleme/düzenleme/listeleme/silme"
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKapi-GSM/2.webp",
-        "li": [
-          "Son 250 arama kaydını “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutma",
-          "Ayarlanabilir tetikleme süresi",
-          "NTP ile otomatik tarih/saat",
-          "AP modunda çalışabilme"
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKapi-GSM/3.webp",
-        "li": [
-          "Çift çekirdek 32 bit 240 MHz işlemci",
-          "320 KB RAM",
-          "2.4 Ghz 802.11 b/g/n WIFI",
-          "850/900/1800/1900MHz 2G GSM",
-          "5V 2A DC güç kullanımı",
-          "88x60x42 mm boyut",
-          "130 gram ağırlık"
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKapi-GSM/0.webp",
+      "h1": "bKapı -GSM",
+      "h2": "GSM Tabanlı Kapı/Bariyer Açma Cihazı",
+      "p": [
+        "bKapı -GSM, siteler ve iş yerleri için geliştirdiğimiz, GSM tabanlı bir kapı/bariyer açma cihazıdır. Cihaza takılı sim karta ait numara arandığında, arayan numara kayıtlı ise kapı açılır ve arama cihaz tarafından meşgule atılır. Numara ekleme işlemi, SMS göndererek yapılan diğer cihazların aksine WIFI üzerinden telefon, bilgisayar veya tablet ile cihaza bağlanılarak yapılır. Böylece, SMS gönderme maliyeti bulunmaz, cihaza takılı hat gelen aramalara açık olduğu sürece sorunsuzca kullanılabilir.",
+        "Cihaza 1000 adet numara “adı soyadı-kapı numarası-telefon numarası” bilgileriyle beraber eklenebilir, arayüz üzerinde tüm bu bilgilere ulaşılabilir. Yüklenen 1000 numara dışa aktarma özelliği ile yedeklenebilir ve daha sonra içe aktarma özelliği ile cihaza yüklenebilir. Son 250 kayıt “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutulur. Saat, internet bağlantısı üzerinden (NTP) alınır, internet bağlantısı olmayan durumlarda tarih/saat yerine cihazın son açılışından itibaren geçen süre gösterilir. Cihaz üzerindeki rölenin tetiklenme süresi ayarlanabilir, varsayılan değer 1000 milisaniyedir.",
+        "Cihaz arayüzüne internet tarayıcıları ile bağlanılır, böylece herhangi bir uygulama kurulması gerekmez. Cihaz, AP modunda çalışabildiği için cihaza WIFI ile doğrudan bağlanabilir. Sabit IP’ye sahip internet bağlantısı bulunan bir ağa bağlanılması halinde, cihaz arayüzüne internet bağlantısı olan herhangi bir yerden ulaşılabilir."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-GSM/1.webp",
+          "li": [
+            "GSM üzerinden arama ile kapı/bariyer açma",
+            "SMS gönderme maliyeti olmadan sim kart ile çalışma",
+            "Cep telefonu, tablet veya bilgisayar ile WIFI üzerinden cihaz arayüzüne erişim",
+            "“Adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle 1000 numara ekleme/düzenleme/listeleme/silme"
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKapi-GSM/2.webp",
+          "li": [
+            "Son 250 arama kaydını “adı soyadı-kapı numarası-telefon numarası-tarih-saat” bilgileriyle beraber tutma",
+            "Ayarlanabilir tetikleme süresi",
+            "NTP ile otomatik tarih/saat",
+            "AP modunda çalışabilme"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-GSM/3.webp",
+          "li": [
+            "Çift çekirdek 32 bit 240 MHz işlemci",
+            "320 KB RAM",
+            "2.4 Ghz 802.11 b/g/n WIFI",
+            "850/900/1800/1900MHz 2G GSM",
+            "5V 2A DC güç kullanımı",
+            "88x60x42 mm boyut",
+            "130 gram ağırlık"
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKapi-GSM/0.webp",
+      "h1": "bKapi-GSM",
+      "h2": "GSM-Based Door/Barrier Opening Device",
+      "p": [
+        "bKapi-GSM is a GSM-based door/barrier opening device we developed for residential sites and workplaces. When the number associated with the SIM card in the device is called, if the caller's number is registered, the door opens, and the call is rejected by the device. Unlike other devices where numbers are added by sending SMS, numbers can be added to this device by connecting to it via WIFI using a phone, computer, or tablet. This eliminates the cost of sending SMS, and as long as the SIM card in the device is open to incoming calls, it can be used without any issues.",
+        "Up to 1000 numbers can be added to the device with “name-surname-door number-phone number” information, and all this information can be accessed through the interface. The 1000 loaded numbers can be backed up with the export feature and later uploaded to the device with the import feature. The last 250 records are kept with “name-surname-door number-phone number-date-time” information. The time is obtained via internet connection (NTP), and in cases where there is no internet connection, the elapsed time since the last device startup is displayed instead of the date/time. The trigger time of the relay on the device can be adjusted, with the default value set to 1000 milliseconds.",
+        "The device interface is accessible via internet browsers, so there is no need to install any application. Since the device can operate in AP mode, it can be connected directly via WIFI. If it is connected to a network with a static IP internet connection, the device interface can be accessed from anywhere with an internet connection."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-GSM/1.webp",
+          "li": [
+            "Opening door/barrier via GSM call",
+            "Working with a SIM card without SMS sending costs",
+            "Access to the device interface via WIFI using a mobile phone, tablet, or computer",
+            "Adding/editing/listing/deleting 1000 numbers with “name-surname-door number-phone number-date-time” information"
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKapi-GSM/2.webp",
+          "li": [
+            "Keeping the last 250 call records with “name-surname-door number-phone number-date-time” information",
+            "Adjustable trigger time",
+            "Automatic date/time via NTP",
+            "Ability to operate in AP mode"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKapi-GSM/3.webp",
+          "li": [
+            "Dual-core 32-bit 240 MHz processor",
+            "320 KB RAM",
+            "2.4 GHz 802.11 b/g/n WIFI",
+            "850/900/1800/1900 MHz 2G GSM",
+            "5V 2A DC power usage",
+            "Dimensions: 88x60x42 mm",
+            "Weight: 130 grams"
+          ]
+        }
+      ]
+    }
+  ]
+}

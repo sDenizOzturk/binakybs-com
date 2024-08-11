@@ -72,24 +72,24 @@ h3,
 p {
   color: var(--color2);
   margin: 0;
-  margin-left: 2vmin;
+  margin-left: 2rem;
 }
 h1 {
-  font-size: 8vmin;
+  font-size: 4rem;
   font-weight: 500;
 }
 h2 {
-  font-size: 4vmin;
+  font-size: 2rem;
   font-weight: 400;
 }
 h3 {
-  font-size: 3.5vmin;
-  margin-top: 3vmin;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
   font-weight: 300;
 }
 p {
-  font-size: 3vmin;
-  margin-top: 1.5vmin;
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
   font-weight: 300;
   text-align: justify;
 }
@@ -98,8 +98,8 @@ img {
   object-fit: scale-down;
 }
 .button {
-  margin: 2vmin;
-  font-size: 3.5vmin;
+  margin: 1rem;
+  font-size: 1.75rem;
 }
 @media screen and (orientation: portrait) {
   .div_right,

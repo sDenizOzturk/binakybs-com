@@ -12,7 +12,7 @@ export default {
   name: "MobileAppsView",
   data() {
     return {
-      json: _json,
+      json: _json[this.$route.params.language],
     };
   },
   components: {

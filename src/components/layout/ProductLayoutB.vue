@@ -5,7 +5,10 @@
       v-for="subElement in object.subElements"
       :key="subElement"
     >
-      <div class="subElement">
+      <div v-if="subElement.singleImage" class="grid-layout">
+        <img :src="require('@/' + subElement.imageUrl)" alt="" class="single-image" />
+      </div>
+      <div v-else class="grid-layout">
         <div class="image-wrapper" :class="subElement.imageOnLeft ? 'div_left' : 'div_right'">
           <img :src="require('@/' + subElement.imageUrl)" alt="" />
         </div>
@@ -41,10 +44,10 @@ export default {
 }
 
 img {
-  width: 100%;
+  width: 120%;
   object-fit: contain;
 }
-.subElement {
+.grid-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -52,6 +55,7 @@ img {
   grid-row-gap: 0px;
   width: 75vw;
   margin: auto;
+  font-size: 1rem;
 }
 
 .div_left {
@@ -67,13 +71,15 @@ img {
 }
 .text-wrapper {
   vertical-align: middle;
-  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: justify;
   position: relative;
   margin: 3vh;
+  justify-self: center;
+  width: 80%;
+  margin-left: 7.5vw;
 }
 
 ul {
@@ -83,8 +89,14 @@ ul {
 p {
   margin-bottom: 0;
 }
+
+.single-image {
+  width: 75vw;
+  padding: 1rem;
+}
+
 @media screen and (orientation: portrait) {
-  .subElement {
+  .grid-layout {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -101,6 +113,15 @@ p {
   }
   .text-wrapper {
     margin: 0;
+    width: 95%;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) {
+  @media (orientation: portrait) {
+    .text-wrapper {
+      font-size: 2rem;
+    }
   }
 }
 </style>

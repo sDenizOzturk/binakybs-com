@@ -72,6 +72,7 @@ export default {
   display: flex;
   justify-content: center;
 }
+
 .div_left_image {
   grid-area: 1 / 1;
 }
@@ -107,7 +108,13 @@ img {
   .div_left_image,
   .div_center_image,
   .div_right_image {
-    padding-top: 3vmin;
+    padding-top: 1.5rem;
+  }
+  .div_left_content,
+  .div_center_content,
+  .div_right_content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 </style>

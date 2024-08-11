@@ -1,78 +1,158 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "videoUrl": "https://www.youtube.com/embed/WrOA0cO6b0c?si=LohIiWprspMQbJOQ",
-    "h1": "bAdim",
-    "h2": "Akıllı Basamak Aydınlatma Cihazı",
-    "p": [
-      "bAdım, “gerçek adım takibi” özelliğine sahip bir basamak aydınlatma cihazıdır. 12 basamağa kadar, 4 adet sensör desteklemektedir. WIFI özelliği sayesinde herhangi bir uygulama indirmeden, telefon, bilgisayar veya tablet üzerinden kolaylıkla cihaza bağlanılarak ayarlamalar yapılabilmektedir.",
-      "Diğer basamak aydınlatma sistemlerinde standart olarak 2 adet sensör kullanılmaktadır. Sensörlerden biri ilk basamağa, diğeri ise son basamağa yerleştirilmektedir. Kullanıcı ilk basamağa adım attığında cihaz tetiklenmekte ve kullanıcının konumundan bağımsız olarak, son basamağa kadar tüm basamaklarda bulunan ledler sırayla yanmaktadır. Bu nedenle bu cihazlarda adım takibi yapılamamaktadır.",
-      "bAdım’da 4 adet sensör kullanılmaktadır. Bunlardan ikisi, diğer cihazlara benzer olarak ilk ve son basamaklara yerleştirilmektedir. Geri kalan iki sensör ise aradaki basamaklardan istenilen ikisine yerleştirilmektedir. Bu 4 sensörden gelen verinin işlenmesiyle, kullanıcı merdivende yürüdükçe önünde bulunan ledler yakılmakta, arkasında bulunan ledler söndürülmektedir. Böylelikle “gerçek adım takibi” sağlanmaktadır. Bu özellik merdivende aynı anda birden fazla kişinin bulunduğu durumlarda da çalışabilmektedir."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bAdim/1.webp",
-        "p": [
-          "Diğer cihazlara üstün bir diğer nokta ise kullanılan sensör tipidir. Diğer cihazlarda hareket sensörü kullanılmaktadır. Hareket sensörleri, beş, sekiz saniye gibi uzun sürelerde bir okuma yapabilen, mesafe sınırı koyulamayan, basamak aydınlatması için aşırı yüksek okuma açılarına sahip cihazlardır. Bu nedenle sıklıkla yanlış okumalar yaşanabilmekte ve u merdiven, döner merdiven gibi farklı tip merdivenlerde sağlıklı şekilde kullanılamamaktadır. Mesafe kısıtlaması yapılamaması nedeniyle korkuluğun dış tarafından geçilirken yanlış okumalar yapılmaktadır."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bAdim/2.webp",
-        "p": [
-          "bAdım’da ise mesafe sensörü kullanılmaktadır. Bu sensörün okuma açısı, basamak aydınlatması için ideal şekilde dardır. Kullanılan 4 sensör ile saniyede yaklaşık 4 okuma yapabilmektedir. Her sensör için ayrı basamak genişliği atanabilmektedir. Böylelikle, hareket sensörüne kıyasla çok daha az hatalı okuma yapılmaktadır. Korkulukların açık veya kapalı olmasından veya merdiven tipinden tamamen bağımsız olarak faklı şartlarda sorunsuzca çalışabilmektedir."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bAdim/3.webp",
-        "p": [
-          "bAdım’a WIFI üzerinden bağlanılarak cihazla ilgili tüm ayarlamalar yapılabilmektedir. Bu bağlantı doğrudan cihaza bağlanılarak veya “ağ ayarları” bölümünden ortamda bulunan ağın adı ve parolası girilerek cihaza ortamdaki ağ üzerinden bağlanılarak yapılabilmektedir. Bu işlemleri yapabilmek için herhangi bir program indirilmesi/kurulması gerekmez, herhangi bir internet tarayıcısı kullanılarak bilgisayar, telefon veya tablet ile cihaz ayarlarına ulaşılabilmektedir."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bAdim/4.webp",
-        "p": [
-          "“Parametreler” bölümünde; kullanılan basamak sayısı, yakma ve söndürme sırasında basamak arasında bekleme süresi, aydınlatma süresi gibi çeşitli parametreler ayarlanabilmektedir. “Sensörler” bölümünde ise basamak genişliği değerleri atanabilmektedir ve hangi sensörün hangi basamağı aydınlatacağı seçilebilmektedir."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bAdim/5.webp",
-        "li": [
-          "80Mhz 32 bit işlemci",
-          "2.4Ghz WIFI",
-          "250VAC/30VDC 10A tetikleme",
-          "5VDC çalışma voltajı",
-          "250mA akım kullanımı",
-          "147x115x29mm boyut",
-          "316 gram ağırlık"
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": false,
-        "imageUrl": "assets/products/bAdim/6.webp",
-        "li": [
-          "40kHz çalışma frekansı",
-          "2cm–4m menzil",
-          "15° görüş açısı",
-          "5VDC çalışma voltajı",
-          "15mA akım kullanımı",
-          "51x26x15mm boyut",
-          "36 gram ağırlık"
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "videoUrl": "https://www.youtube.com/embed/WrOA0cO6b0c?si=LohIiWprspMQbJOQ",
+      "h1": "bAdim",
+      "h2": "Akıllı Basamak Aydınlatma Cihazı",
+      "p": [
+        "bAdım, “gerçek adım takibi” özelliğine sahip bir basamak aydınlatma cihazıdır. 12 basamağa kadar, 4 adet sensör desteklemektedir. WIFI özelliği sayesinde herhangi bir uygulama indirmeden, telefon, bilgisayar veya tablet üzerinden kolaylıkla cihaza bağlanılarak ayarlamalar yapılabilmektedir.",
+        "Diğer basamak aydınlatma sistemlerinde standart olarak 2 adet sensör kullanılmaktadır. Sensörlerden biri ilk basamağa, diğeri ise son basamağa yerleştirilmektedir. Kullanıcı ilk basamağa adım attığında cihaz tetiklenmekte ve kullanıcının konumundan bağımsız olarak, son basamağa kadar tüm basamaklarda bulunan ledler sırayla yanmaktadır. Bu nedenle bu cihazlarda adım takibi yapılamamaktadır.",
+        "bAdım’da 4 adet sensör kullanılmaktadır. Bunlardan ikisi, diğer cihazlara benzer olarak ilk ve son basamaklara yerleştirilmektedir. Geri kalan iki sensör ise aradaki basamaklardan istenilen ikisine yerleştirilmektedir. Bu 4 sensörden gelen verinin işlenmesiyle, kullanıcı merdivende yürüdükçe önünde bulunan ledler yakılmakta, arkasında bulunan ledler söndürülmektedir. Böylelikle “gerçek adım takibi” sağlanmaktadır. Bu özellik merdivende aynı anda birden fazla kişinin bulunduğu durumlarda da çalışabilmektedir."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/1.webp",
+          "p": [
+            "Diğer cihazlara üstün bir diğer nokta ise kullanılan sensör tipidir. Diğer cihazlarda hareket sensörü kullanılmaktadır. Hareket sensörleri, beş, sekiz saniye gibi uzun sürelerde bir okuma yapabilen, mesafe sınırı koyulamayan, basamak aydınlatması için aşırı yüksek okuma açılarına sahip cihazlardır. Bu nedenle sıklıkla yanlış okumalar yaşanabilmekte ve u merdiven, döner merdiven gibi farklı tip merdivenlerde sağlıklı şekilde kullanılamamaktadır. Mesafe kısıtlaması yapılamaması nedeniyle korkuluğun dış tarafından geçilirken yanlış okumalar yapılmaktadır."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/2.webp",
+          "p": [
+            "bAdım’da ise mesafe sensörü kullanılmaktadır. Bu sensörün okuma açısı, basamak aydınlatması için ideal şekilde dardır. Kullanılan 4 sensör ile saniyede yaklaşık 4 okuma yapabilmektedir. Her sensör için ayrı basamak genişliği atanabilmektedir. Böylelikle, hareket sensörüne kıyasla çok daha az hatalı okuma yapılmaktadır. Korkulukların açık veya kapalı olmasından veya merdiven tipinden tamamen bağımsız olarak faklı şartlarda sorunsuzca çalışabilmektedir."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/3.webp",
+          "p": [
+            "bAdım’a WIFI üzerinden bağlanılarak cihazla ilgili tüm ayarlamalar yapılabilmektedir. Bu bağlantı doğrudan cihaza bağlanılarak veya “ağ ayarları” bölümünden ortamda bulunan ağın adı ve parolası girilerek cihaza ortamdaki ağ üzerinden bağlanılarak yapılabilmektedir. Bu işlemleri yapabilmek için herhangi bir program indirilmesi/kurulması gerekmez, herhangi bir internet tarayıcısı kullanılarak bilgisayar, telefon veya tablet ile cihaz ayarlarına ulaşılabilmektedir."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/4.webp",
+          "p": [
+            "“Parametreler” bölümünde; kullanılan basamak sayısı, yakma ve söndürme sırasında basamak arasında bekleme süresi, aydınlatma süresi gibi çeşitli parametreler ayarlanabilmektedir. “Sensörler” bölümünde ise basamak genişliği değerleri atanabilmektedir ve hangi sensörün hangi basamağı aydınlatacağı seçilebilmektedir."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/5.webp",
+          "li": [
+            "80Mhz 32 bit işlemci",
+            "2.4Ghz WIFI",
+            "250VAC/30VDC 10A tetikleme",
+            "5VDC çalışma voltajı",
+            "250mA akım kullanımı",
+            "147x115x29mm boyut",
+            "316 gram ağırlık"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/6.webp",
+          "li": [
+            "40kHz çalışma frekansı",
+            "2cm–4m menzil",
+            "15° görüş açısı",
+            "5VDC çalışma voltajı",
+            "15mA akım kullanımı",
+            "51x26x15mm boyut",
+            "36 gram ağırlık"
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "videoUrl": "https://www.youtube.com/embed/WrOA0cO6b0c?si=LohIiWprspMQbJOQ",
+      "h1": "bAdim",
+      "h2": "Smart Step Lighting Device",
+      "p": [
+        "bAdım is a step lighting device with a “real step tracking” feature. It supports up to 12 steps with 4 sensors. With its WIFI feature, you can easily connect to the device through your phone, computer, or tablet without downloading any app, and make adjustments.",
+        "In other step lighting systems, 2 sensors are used as standard. One sensor is placed on the first step, and the other on the last step. When the user steps on the first step, the device is triggered, and the LEDs on all steps light up in sequence, regardless of the user's position, up to the last step. Therefore, step tracking cannot be done with these devices.",
+        "In bAdım, 4 sensors are used. Two of these sensors are placed on the first and last steps, similar to other devices. The remaining two sensors are placed on any two of the intermediate steps. By processing the data from these 4 sensors, the LEDs in front of the user light up as they walk on the stairs, while the LEDs behind them turn off. Thus, “real step tracking” is achieved. This feature also works in cases where more than one person is on the stairs at the same time."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/1.webp",
+          "p": [
+            "Another advantage over other devices is the type of sensor used. In other devices, motion sensors are used. Motion sensors are devices that can make a reading in long periods such as five or eight seconds, cannot impose a distance limit, and have excessively high reading angles for step lighting. Therefore, false readings frequently occur, and they cannot be used effectively on different types of stairs, such as U-shaped or spiral staircases. Due to the lack of distance limitation, false readings are made when passing from the outside of the railing."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/2.webp",
+          "p": [
+            "In bAdım, however, a distance sensor is used. The reading angle of this sensor is ideally narrow for step lighting. With the 4 sensors used, it can make approximately 4 readings per second. A separate step width can be assigned for each sensor. Thus, much fewer false readings are made compared to the motion sensor. It can operate seamlessly under different conditions, completely independent of whether the railings are open or closed or the type of staircase."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/3.webp",
+          "p": [
+            "All adjustments related to the device can be made by connecting to bAdım via WIFI. This connection can be made directly by connecting to the device or by entering the name and password of the network in the environment from the “network settings” section and connecting to the device via the network in the environment. No software needs to be downloaded/installed to perform these operations; device settings can be accessed using any web browser via a computer, phone, or tablet."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/4.webp",
+          "p": [
+            "In the “Parameters” section, various parameters such as the number of steps used, the waiting time between steps during lighting and extinguishing, and the lighting time can be adjusted. In the “Sensors” section, step width values can be assigned, and it can be selected which sensor will illuminate which step."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bAdim/5.webp",
+          "li": [
+            "80MHz 32-bit processor",
+            "2.4GHz WIFI",
+            "250VAC/30VDC 10A trigger",
+            "5VDC operating voltage",
+            "250mA current consumption",
+            "147x115x29mm dimensions",
+            "316 grams weight"
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": false,
+          "imageUrl": "assets/products/bAdim/6.webp",
+          "li": [
+            "40kHz operating frequency",
+            "2cm–4m range",
+            "15° viewing angle",
+            "5VDC operating voltage",
+            "15mA current consumption",
+            "51x26x15mm dimensions",
+            "36 grams weight"
+          ]
+        }
+      ]
+    }
+  ]
+}

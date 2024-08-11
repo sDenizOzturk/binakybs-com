@@ -1,75 +1,152 @@
-[
-  {
-    "id": "ProductLayoutA",
-    "imageUrl": "assets/products/bKDV/0.webp",
-    "h1": "bKDV",
-    "h2": "İndirilecek ve Yüklenilen KDV Listesi Hazırlama Uygulaması",
-    "p": [
-      "bKdv, YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için geliştirdiğimiz bir standart İndirilecek/Yüklenilen KDV Listesi hazırlama uygulamasıdır. KDV iadesi alanında uzman kişilerden alınan bilgiler sonucunda geliştirdiğimiz yenilikçi algoritmalar ve arayüz sayesinde fazla deneyimi olmayan yardımcı personeller tarafından da rahatlıkla kullanılabilmekte, hızlı ve güvenilir şekilde listeler hazırlanmaktadır. bKdv, içerisinde çeşitli otokontroller içermekte ve tekrar eden bilgilerin otomatik olarak Bilgisayara getirilmesi gibi kolaylıklar sağlamaktadır. KDV iadesi listeleri ile karşıt inceleme tutanaklarının hazırlanması konusunda özellikle zaman ve iş gücü açısından kullanıcıya çok büyük fayda sağlamaktadır."
-    ]
-  },
-  {
-    "id": "ProductLayoutB",
-    "subElements": [
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKDV/1.webp",
-        "li": [
-          "KDV İadesi İndirilecek ve Yüklenilen KDV Listeleri’nin hazırlanması için kullanılır.",
-          "Uzman olmayan personellerin de rahatlıkla girebileceği “tarih, seri numarası, unvan, vergi numarası, tutar, KDV” gibi bilgiler programda ilgili kutucuklara yazılarak listelerin GİB sistemine yüklenebilecek biçimde hazırlanmasını sağlar. Tekrar eden bilgileri program otomatik getirdiğinden büyük ölçüde zaman tasarrufu, bilgilerin kutucuklara yazılması da uzman personel ihtiyacını azaltmaktadır."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKDV/2.webp",
-        "li": [
-          "Veri girişi sırasında kayıt mükerrerse kullanıcının uyarılması, kutucuğa daha önce girilmiş bilgilerin öğrenilip önerilmesi, satıcı adı girilince satıcının bilgilerinin getirilmesi, fatura tarihi girilince KDV dönemi kutucuğunun doldurulması, KDV hariç tutarların yüzde 1, 8 ve 18 oranları için ayrı ayrı olarak girilip KDV’nin hesaplanması, işlem ve yüklenim türlerinin hem kodu hem de ismi ile ayrı ayrı seçilebilmesi gibi bu işlemi hızlandıran ve kolaylaştıran özellikler içerir."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKDV/3.webp",
-        "li": [
-          "Yüklenilen KDV Listesi hazırlanırken üç farklı tablo kullanılır. Mevcut dosyanın İndirilecek KDV Listesi’ndeki, belirlenen tarihten önceki faturalar otomatik olarak yüklenilen KDV Listesine eklenir, bu tarih her değiştirildiğinde bu tablo güncellenir. İkinci tabloda ise diğer dosyaların İndirilecek KDV Listelerinden kullanıcının seçtiği kayıtlar gösterilir. Diğer tabloda ise ayrıca girilecek faturalar gösterilir.",
-          "Yüklenilen KDV Listesi kayıtları toplu halde düzenlenebilir.",
-          "İşlem türü için “311” değeri girilirse Aracın Plaka Numarası ve Şasi Numarası bilgileri için ayrı sütun oluşturulur."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKDV/4.webp",
-        "li": [
-          "Tercih edilmesi halinde KDV listelerindeki bilgilere ek olarak satıcı firma bilgilerinin içeren ek satırlar eklenebilir. Bu satırlar, kullanıcının çıktı dosyayı bKarşıt programında açması durumunda programın kullandığı veritabanına otomatik olarak eklenir.",
-          "Çıktı olarak .xlsx ve .html dosya tiplerinde dosya oluşturulur. .xlsx dosya ise Gelir İdaresi Başkanlığı sistemine yüklenebilecek şekilde oluşturulan dosyalar ofis programları ile açılabilir. .html dosya tipinde oluşturulan dosyalar ofis programlarının yanı sıra internet tarayıcıları ile de açılabilir.",
-          "Uygulamaya parola kullanılarak giriş yapılır. Veriler veritabanında kriptografi ile şifrelenerek saklanır. Böylece diğer kişilerin çalışmalara ulaşması engellenir."
-        ]
-      },
-      {
-        "imageOnLeft": true,
-        "background": true,
-        "imageUrl": "assets/products/bKDV/5.webp",
-        "li": [
-          "Ayarlar sekmesinden program ile ilgili çeşitli ayarların yapılabilmesinin dışında veritabanında bulunan veriler içe ve dışa aktarılabilir.",
-          "Satıcı firma bilgileri veritabanında tutulur, bu veriler ayarlar sekmesinden düzenlenebilir, eklenebilir veya silinebilir.",
-          "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veritabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
-          "Web tabanlı değildir. Bu nedenle internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
-        ]
-      },
-      {
-        "imageOnLeft": false,
-        "background": false,
-        "imageUrl": "assets/products/bKDV/6.webp",
-        "li": [
-          "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
-          "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
-          "Veriler AES 256 ile şifrelenir.",
-          "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
-        ]
-      }
-    ]
-  }
-]
+{
+  "tr": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKDV/0.webp",
+      "h1": "bKDV",
+      "h2": "İndirilecek ve Yüklenilen KDV Listesi Hazırlama Uygulaması",
+      "p": [
+        "bKdv, YMM’ler, SMMM’ler ve KDV iadesi ile ilgisi olan firmalar için geliştirdiğimiz bir standart İndirilecek/Yüklenilen KDV Listesi hazırlama uygulamasıdır. KDV iadesi alanında uzman kişilerden alınan bilgiler sonucunda geliştirdiğimiz yenilikçi algoritmalar ve arayüz sayesinde fazla deneyimi olmayan yardımcı personeller tarafından da rahatlıkla kullanılabilmekte, hızlı ve güvenilir şekilde listeler hazırlanmaktadır. bKdv, içerisinde çeşitli otokontroller içermekte ve tekrar eden bilgilerin otomatik olarak Bilgisayara getirilmesi gibi kolaylıklar sağlamaktadır. KDV iadesi listeleri ile karşıt inceleme tutanaklarının hazırlanması konusunda özellikle zaman ve iş gücü açısından kullanıcıya çok büyük fayda sağlamaktadır."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/1.webp",
+          "li": [
+            "KDV İadesi İndirilecek ve Yüklenilen KDV Listeleri’nin hazırlanması için kullanılır.",
+            "Uzman olmayan personellerin de rahatlıkla girebileceği “tarih, seri numarası, unvan, vergi numarası, tutar, KDV” gibi bilgiler programda ilgili kutucuklara yazılarak listelerin GİB sistemine yüklenebilecek biçimde hazırlanmasını sağlar. Tekrar eden bilgileri program otomatik getirdiğinden büyük ölçüde zaman tasarrufu, bilgilerin kutucuklara yazılması da uzman personel ihtiyacını azaltmaktadır."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/2.webp",
+          "li": [
+            "Veri girişi sırasında kayıt mükerrerse kullanıcının uyarılması, kutucuğa daha önce girilmiş bilgilerin öğrenilip önerilmesi, satıcı adı girilince satıcının bilgilerinin getirilmesi, fatura tarihi girilince KDV dönemi kutucuğunun doldurulması, KDV hariç tutarların yüzde 1, 8 ve 18 oranları için ayrı ayrı olarak girilip KDV’nin hesaplanması, işlem ve yüklenim türlerinin hem kodu hem de ismi ile ayrı ayrı seçilebilmesi gibi bu işlemi hızlandıran ve kolaylaştıran özellikler içerir."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/3.webp",
+          "li": [
+            "Yüklenilen KDV Listesi hazırlanırken üç farklı tablo kullanılır. Mevcut dosyanın İndirilecek KDV Listesi’ndeki, belirlenen tarihten önceki faturalar otomatik olarak yüklenilen KDV Listesine eklenir, bu tarih her değiştirildiğinde bu tablo güncellenir. İkinci tabloda ise diğer dosyaların İndirilecek KDV Listelerinden kullanıcının seçtiği kayıtlar gösterilir. Diğer tabloda ise ayrıca girilecek faturalar gösterilir.",
+            "Yüklenilen KDV Listesi kayıtları toplu halde düzenlenebilir.",
+            "İşlem türü için “311” değeri girilirse Aracın Plaka Numarası ve Şasi Numarası bilgileri için ayrı sütun oluşturulur."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/4.webp",
+          "li": [
+            "Tercih edilmesi halinde KDV listelerindeki bilgilere ek olarak satıcı firma bilgilerinin içeren ek satırlar eklenebilir. Bu satırlar, kullanıcının çıktı dosyayı bKarşıt programında açması durumunda programın kullandığı veritabanına otomatik olarak eklenir.",
+            "Çıktı olarak .xlsx ve .html dosya tiplerinde dosya oluşturulur. .xlsx dosya ise Gelir İdaresi Başkanlığı sistemine yüklenebilecek şekilde oluşturulan dosyalar ofis programları ile açılabilir. .html dosya tipinde oluşturulan dosyalar ofis programlarının yanı sıra internet tarayıcıları ile de açılabilir.",
+            "Uygulamaya parola kullanılarak giriş yapılır. Veriler veritabanında kriptografi ile şifrelenerek saklanır. Böylece diğer kişilerin çalışmalara ulaşması engellenir."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/5.webp",
+          "li": [
+            "Ayarlar sekmesinden program ile ilgili çeşitli ayarların yapılabilmesinin dışında veritabanında bulunan veriler içe ve dışa aktarılabilir.",
+            "Satıcı firma bilgileri veritabanında tutulur, bu veriler ayarlar sekmesinden düzenlenebilir, eklenebilir veya silinebilir.",
+            "Kurulum gerektirmez, program ilk çalıştırıldığında otomatik olarak “Belgelerim” klasöründe veritabanını oluşturur ve kendisini kullanıma hazır hale getirir.",
+            "Web tabanlı değildir. Bu nedenle internetten bağımsız olarak çalışır ve tüm veriler kullanıldığı bilgisayarda tutulur."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/6.webp",
+          "li": [
+            "Program Qt framework’ü ve C++ programlama dili ile geliştirilmiştir.",
+            "Veritabanı olarak SQLite veritabanı motoru kullanılmaktadır.",
+            "Veriler AES 256 ile şifrelenir.",
+            "MinGW compiler’ı ile çalışmaktadır bu nedenle Windows 7 ve üzeri işletim sistemlerinde herhangi bir kurulum gerekmeden çalıştırılır."
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "ProductLayoutA",
+      "imageUrl": "assets/products/bKDV/0.webp",
+      "h1": "bKDV",
+      "h2": "VAT Deduction and Charge List Preparation Application",
+      "p": [
+        "bKDV is a standard VAT Deduction/Charge List preparation application that we developed for CPAs, certified accountants, and companies involved in VAT refunds. Thanks to the innovative algorithms and interface we developed based on the input from experts in the VAT refund field, it can be easily used by assistant staff with little experience, and lists can be prepared quickly and reliably. bKDV includes various automatic checks and provides conveniences such as automatically retrieving repetitive information. It offers significant time and labor savings, especially in preparing VAT refund lists and counter examination reports."
+      ]
+    },
+    {
+      "id": "ProductLayoutB",
+      "subElements": [
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/1.webp",
+          "li": [
+            "Used for preparing VAT Deduction and Charge Lists for VAT refunds.",
+            "Information such as 'date, serial number, title, tax number, amount, VAT' can be easily entered by non-expert personnel into the relevant fields in the program, enabling the preparation of lists that can be uploaded to the Revenue Administration system. Since the program automatically retrieves repetitive information, it significantly saves time and reduces the need for expert personnel."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/2.webp",
+          "li": [
+            "Includes features that accelerate and simplify the process, such as alerting the user if there is a duplicate record during data entry, suggesting previously entered information in the field, retrieving seller information when the seller's name is entered, filling in the VAT period field when the invoice date is entered, calculating VAT for amounts excluding VAT for 1%, 8%, and 18% rates separately, and allowing the selection of transaction and charge types by both code and name."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/3.webp",
+          "li": [
+            "Three different tables are used when preparing the Charge VAT List. Invoices before the specified date in the VAT Deduction List of the existing file are automatically added to the Charge VAT List; this table is updated whenever this date is changed. The second table shows the records selected by the user from the VAT Deduction Lists of other files. The third table shows invoices to be entered separately.",
+            "Charge VAT List records can be edited collectively.",
+            "If the '311' value is entered for the transaction type, separate columns are created for Vehicle License Plate Number and Chassis Number information."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/4.webp",
+          "li": [
+            "If preferred, additional rows containing seller company information can be added to the VAT lists. These rows are automatically added to the database used by the program if the output file is opened in the bKarsit program.",
+            "Output files can be created in .xlsx and .html file formats. .xlsx files are created in a format that can be uploaded to the Revenue Administration system and can be opened with office programs. Files created in .html format can be opened not only with office programs but also with web browsers.",
+            "The application is accessed using a password. Data is encrypted with cryptography in the database, preventing others from accessing the work."
+          ]
+        },
+        {
+          "imageOnLeft": true,
+          "background": true,
+          "imageUrl": "assets/products/bKDV/5.webp",
+          "li": [
+            "In addition to various settings related to the program from the settings tab, data in the database can be imported and exported.",
+            "Seller company information is stored in the database; this information can be edited, added, or deleted from the settings tab.",
+            "No installation is required; when the program is run for the first time, it automatically creates its database in the 'My Documents' folder and prepares itself for use.",
+            "It is not web-based. Therefore, it works independently of the internet, and all data is stored on the computer it is used on."
+          ]
+        },
+        {
+          "imageOnLeft": false,
+          "background": false,
+          "imageUrl": "assets/products/bKDV/6.webp",
+          "li": [
+            "The program is developed with the Qt framework and C++ programming language.",
+            "SQLite database engine is used as the database.",
+            "Data is encrypted with AES 256.",
+            "It works with the MinGW compiler, so it runs on Windows 7 and later operating systems without any installation."
+          ]
+        }
+      ]
+    }
+  ]
+}
